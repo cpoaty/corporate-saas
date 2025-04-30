@@ -1,24 +1,52 @@
 # Corporate SaaS Platform 
  
-Une plateforme SaaS modulaire multi-domaines incluant comptabilit‚, paie, audit et archivage. 
+Une plateforme SaaS modulaire multi-domaines avec architecture micro-services et micro-frontends. 
+ 
+## Vue d'ensemble 
+ 
+Cette plateforme est construite avec une architecture hybride pour supporter de multiples domaines m‚tier: 
+- Comptabilit‚ 
+- Paie (futur) 
+- Audit (futur) 
+- Archivage (futur) 
  
 ## Structure du projet 
  
-Ce projet est organis‚ selon une architecture de micro-services et micro-frontends: 
+```bash 
+corporate-saas/ 
+ÃÄÄ core-services/                  # Services partag‚s 
+³   ÃÄÄ tenant-service/             # Gestion des tenants 
+³   ÀÄÄ user-service/               # Gestion des utilisateurs 
+³ 
+ÃÄÄ domain-services/                # Services par domaine m‚tier 
+³   ÃÄÄ accounting-service/         # Service de comptabilit‚ 
+³   ÃÄÄ payroll-service/            # Service de paie (futur) 
+³   ÃÄÄ audit-service/              # Service d'audit (futur) 
+³   ÀÄÄ archiving-service/          # Service d'archivage (futur) 
+³ 
+ÃÄÄ api-gateway/                    # API Gateway unifi‚ 
+³ 
+ÃÄÄ frontend/                       # Application frontend 
+³   ÃÄÄ shell/                      # Application conteneur 
+³   ÃÄÄ shared/                     # BibliothŠque de composants partag‚s 
+³   ÃÄÄ accounting/                 # Micro-frontend comptabilit‚ 
+³   ÃÄÄ payroll/                    # Micro-frontend paie (futur) 
+³   ÀÄÄ audit/                      # Micro-frontend audit (futur) 
+³ 
+ÀÄÄ infrastructure/                 # Code d'infrastructure 
+    ÃÄÄ kubernetes/                 # Manifestes Kubernetes 
+    ÃÄÄ terraform/                  # Configuration Terraform 
+    ÀÄÄ ci-cd/                      # Pipelines CI/CD 
+``` 
  
-### Core Services 
-- Auth Service - Service d'authentification et autorisation 
-- Tenant Service - Gestion des tenants 
-- User Service - Gestion des utilisateurs 
+## D‚marrage rapide 
  
-### Domain Services 
-- Accounting Service - Service de comptabilit‚ 
+Instructions … venir... 
  
-### Frontend 
-- Frontend Shell - Application conteneur 
-- Shared Components - BibliothŠque de composants partag‚s 
-- Accounting Frontend - Module comptabilit‚ 
+## D‚veloppement 
  
-### Infrastructure 
-- API Gateway - Configuration du gateway API 
-- Infrastructure - Code d'infrastructure (Kubernetes, Terraform) 
+Chaque service et module frontend peut ˆtre d‚velopp‚ ind‚pendamment. 
+ 
+## D‚ploiement 
+ 
+Instructions … venir... 
