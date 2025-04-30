@@ -4,8 +4,8 @@ Une plateforme SaaS modulaire multi-domaines avec architecture micro-services et
  
 ## Vue d'ensemble 
  
-Cette plateforme est construite avec une architecture hybride pour supporter de multiples domaines m‚tier: 
-- Comptabilit‚ 
+Cette plateforme est construite avec une architecture hybride pour supporter de multiples domaines mï¿½tier: 
+- Comptabilitï¿½ 
 - Paie (futur) 
 - Audit (futur) 
 - Archivage (futur) 
@@ -14,39 +14,41 @@ Cette plateforme est construite avec une architecture hybride pour supporter de 
  
 ```bash 
 corporate-saas/ 
-ÃÄÄ core-services/                  # Services partag‚s 
-³   ÃÄÄ tenant-service/             # Gestion des tenants 
-³   ÀÄÄ user-service/               # Gestion des utilisateurs 
-³ 
-ÃÄÄ domain-services/                # Services par domaine m‚tier 
-³   ÃÄÄ accounting-service/         # Service de comptabilit‚ 
-³   ÃÄÄ payroll-service/            # Service de paie (futur) 
-³   ÃÄÄ audit-service/              # Service d'audit (futur) 
-³   ÀÄÄ archiving-service/          # Service d'archivage (futur) 
-³ 
-ÃÄÄ api-gateway/                    # API Gateway unifi‚ 
-³ 
-ÃÄÄ frontend/                       # Application frontend 
-³   ÃÄÄ shell/                      # Application conteneur 
-³   ÃÄÄ shared/                     # BibliothŠque de composants partag‚s 
-³   ÃÄÄ accounting/                 # Micro-frontend comptabilit‚ 
-³   ÃÄÄ payroll/                    # Micro-frontend paie (futur) 
-³   ÀÄÄ audit/                      # Micro-frontend audit (futur) 
-³ 
-ÀÄÄ infrastructure/                 # Code d'infrastructure 
-    ÃÄÄ kubernetes/                 # Manifestes Kubernetes 
-    ÃÄÄ terraform/                  # Configuration Terraform 
-    ÀÄÄ ci-cd/                      # Pipelines CI/CD 
+ï¿½ï¿½ï¿½ core-services/                  # Services partagï¿½s 
+ï¿½   ï¿½ï¿½ï¿½ tenant-service/             # Gestion des tenants 
+ï¿½   ï¿½ï¿½ï¿½ user-service/               # Gestion des utilisateurs 
+ï¿½ 
+ï¿½ï¿½ï¿½ domain-services/                # Services par domaine mï¿½tier 
+ï¿½   ï¿½ï¿½ï¿½ accounting-service/         # Service de comptabilitï¿½ 
+ï¿½   ï¿½ï¿½ï¿½ payroll-service/            # Service de paie (futur) 
+ï¿½   ï¿½ï¿½ï¿½ audit-service/              # Service d'audit (futur) 
+ï¿½   ï¿½ï¿½ï¿½ archiving-service/          # Service d'archivage (futur) 
+ï¿½ 
+ï¿½ï¿½ï¿½ api-gateway/                    # API Gateway unifiï¿½ 
+ï¿½ 
+ï¿½ï¿½ï¿½ frontend/                       # Application frontend 
+ï¿½   ï¿½ï¿½ï¿½ shell/                      # Application conteneur 
+ï¿½   ï¿½ï¿½ï¿½ shared/                     # Bibliothï¿½que de composants partagï¿½s 
+ï¿½   ï¿½ï¿½ï¿½ accounting/                 # Micro-frontend comptabilitï¿½ 
+ï¿½   ï¿½ï¿½ï¿½ payroll/                    # Micro-frontend paie (futur) 
+ï¿½   ï¿½ï¿½ï¿½ audit/                      # Micro-frontend audit (futur) 
+ï¿½ 
+ï¿½ï¿½ï¿½ infrastructure/                 # Code d'infrastructure 
+    ï¿½ï¿½ï¿½ kubernetes/                 # Manifestes Kubernetes 
+    ï¿½ï¿½ï¿½ terraform/                  # Configuration Terraform 
+    ï¿½ï¿½ï¿½ ci-cd/                      # Pipelines CI/CD 
 ``` 
  
-## D‚marrage rapide 
+## Dï¿½marrage rapide 
  
-Instructions … venir... 
+Instructions ï¿½ venir... 
  
-## D‚veloppement 
+## Dï¿½veloppement 
  
-Chaque service et module frontend peut ˆtre d‚velopp‚ ind‚pendamment. 
+Chaque service et module frontend peut ï¿½tre dï¿½veloppï¿½ indï¿½pendamment. 
  
-## D‚ploiement 
+## Dï¿½ploiement 
  
-Instructions … venir... 
+Instructions ï¿½ venir... 
+
+cd C:\Users\chris\corporate-saas\core-services\auth-service\src

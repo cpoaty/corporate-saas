@@ -71,6 +71,7 @@ auth-service/
 │   │       ├── serializers/         # Sérialiseurs pour les API
 │   │       ├── views/               # Vues et endpoints API
 │   │       ├── middleware/          # Middlewares personnalisés
+│   │       │   └── tenant_middleware.py  # Middleware d'isolation des tenants
 │   │       └── permissions/         # Classes de permission
 │   ├── config/                      # Configuration Django
 │   │   ├── settings/
@@ -131,6 +132,13 @@ class Tenant(models.Model):
     
     # Configuration
     settings = models.JSONField(default=dict, blank=True)
+    
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = "Client"
+        verbose_name_plural = "Clients"
 ```
 
 ### Endpoints API principaux
@@ -150,21 +158,117 @@ class Tenant(models.Model):
 - `PUT /api/auth/password/change/` - Changement de mot de passe
 - `POST /api/auth/password/reset/` - Demande de réinitialisation de mot de passe
 
-### Aspects multi-tenant
+#### Test du tenant
 
-L'Auth Service joue un rôle crucial dans l'architecture multi-tenant:
+- `GET /api/tenant-test/` - Endpoint de test qui vérifie l'isolation des tenants
 
-1. **Isolation des données**: Chaque utilisateur est lié à un tenant spécifique via `tenant_id`
-2. **Contexte tenant**: À chaque requête authentifiée, l'identifiant du tenant est extrait du token JWT
-3. **Middleware d'isolation**: Garantit qu'un utilisateur ne peut accéder qu'aux données de son propre tenant
-4. **Administrateurs**: Distingue entre administrateurs de tenant (peuvent gérer leur tenant) et administrateurs de plateforme (peuvent gérer tous les tenants)
+### Middleware d'isolation des tenants
+
+Le middleware d'isolation des tenants est une composante essentielle de l'architecture multi-tenant. Il assure que chaque utilisateur ne peut accéder qu'aux données de son propre tenant.
+
+```python
+class TenantMiddleware:
+    """
+    Middleware qui identifie le tenant de l'utilisateur actuel et le stocke dans request.
+    Empêche l'accès aux données d'autres tenants.
+    """
+    
+    def __init__(self, get_response):
+        self.get_response = get_response
+        
+    def __call__(self, request):
+        # Initialiser tenant_id à None
+        request.tenant_id = None
+        
+        # Essayer d'extraire le token JWT de l'en-tête Authorization
+        auth_header = request.headers.get('Authorization', '')
+        if auth_header.startswith('Bearer '):
+            token = auth_header.split(' ')[1]
+            try:
+                # Décoder le token JWT
+                decoded_token = jwt.decode(
+                    token,
+                    settings.SECRET_KEY,
+                    algorithms=['HS256']
+                )
+                
+                # Extraire l'user_id du token
+                user_id = decoded_token.get('user_id')
+                
+                # Si on a un user_id, on peut récupérer le tenant_id
+                if user_id:
+                    from apps.core.models import User
+                    try:
+                        user = User.objects.get(id=user_id)
+                        request.tenant_id = user.tenant_id
+                        request.user_id = user_id
+                    except User.DoesNotExist:
+                        pass
+            except jwt.PyJWTError:
+                pass
+        
+        # Pour les admin de plateforme, on ne restreint pas l'accès
+        if hasattr(request, 'user') and request.user.is_authenticated and request.user.is_platform_admin:
+            return self.get_response(request)
+        
+        # URLs non protégées par tenant
+        non_tenant_urls = [
+            '/api/auth/login/',
+            '/api/auth/register/',
+            '/api/auth/refresh/',
+            '/admin/',
+            '/api/docs/',
+        ]
+        
+        if any(request.path.startswith(url) for url in non_tenant_urls):
+            return self.get_response(request)
+        
+        # Pour les requêtes qui nécessitent un tenant_id
+        if not request.tenant_id:
+            return HttpResponseForbidden("Accès refusé: aucun tenant identifié")
+        
+        # Tout va bien, on continue avec la requête
+        return self.get_response(request)
+```
+
+### Configuration multi-tenant avec PostgreSQL
+
+Nous utilisons PostgreSQL comme base de données avec une approche d'isolation par filtrage au niveau de l'application. Cette méthode offre une bonne isolation des données tout en étant simple à mettre en œuvre et à maintenir.
+
+```python
+# Configuration de la base de données dans settings/base.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'corporate_saas_db',
+        'USER': 'corporate_saas',
+        'PASSWORD': 'votre_mot_de_passe',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+```
+
+Avec cette approche, chaque modèle de données qui doit être isolé par tenant contient une référence au tenant_id, et notre middleware s'assure que les requêtes sont correctement filtrées pour n'accéder qu'aux données du tenant de l'utilisateur connecté.
+
+### État actuel du développement
+
+- [x] **Modèle utilisateur personnalisé** avec support multi-tenant
+- [x] **Modèle Tenant** pour la gestion des clients
+- [x] **API d'authentification** complète avec JWT
+- [x] **Middleware d'isolation des tenants** qui empêche l'accès aux données d'autres tenants
+- [x] **Base de données PostgreSQL** configurée
+- [x] **Tests d'API** avec utilisateurs associés à des tenants
+- [ ] API complète de gestion des tenants
+- [ ] Services métier avec isolation des données par tenant
 
 ### Sécurité et conformité
 
-- **Chiffrement**: Toutes les communications sont chiffrées via HTTPS/TLS
+- **Chiffrement**: Toutes les communications sont chiffrées via HTTPS/TLS (à configurer en production)
 - **Protection des données**: Conformité RGPD/GDPR
 - **Audit trail**: Journalisation des actions sensibles pour des raisons de sécurité et de conformité
 - **Rate limiting**: Protection contre les attaques par force brute
+- **Isolation des tenants**: Garantie que les utilisateurs ne peuvent accéder qu'aux données de leur propre tenant
 
 ### Intégration avec d'autres services
 
@@ -173,10 +277,31 @@ L'Auth Service joue un rôle crucial dans l'architecture multi-tenant:
 - **User Service**: Partage les informations utilisateur via API
 - **Domain Services**: Fournit le contexte d'authentification et de tenant
 
-## Évolutions futures
+## Prochaines étapes
 
-1. **Authentification sociale**: Intégration avec Google, Microsoft, etc.
-2. **Single Sign-On (SSO)**: Support des protocoles SAML et OIDC
-3. **Authentification biométrique**: Support de WebAuthn
-4. **Gestion des sessions avancée**: Détection d'activités suspectes
-5. **Analytics de sécurité**: Tableaux de bord et alertes de sécurité
+1. **Développement du service de comptabilité**
+   - Création des modèles (plan comptable, transactions, journaux)
+   - Implémentation des API respectant l'isolation des tenants
+   - Ajout des vues et des sérialiseurs
+
+2. **Mise en place de l'API Gateway**
+   - Configuration de Kong ou autre solution
+   - Mise en place du routage vers les différents services
+   - Configuration de la sécurité et du rate limiting
+
+3. **Développement du frontend**
+   - Création de l'application shell (React/Angular)
+   - Implémentation des modules micro-frontend pour chaque domaine
+   - Intégration avec le système d'authentification
+
+4. **Améliorations de la sécurité**
+   - Configuration HTTPS
+   - Audit de sécurité
+   - Journalisation des événements
+
+5. **Évolutions futures**
+   - Authentification sociale (Google, Microsoft, etc.)
+   - Single Sign-On (SSO) avec support SAML et OIDC
+   - Authentification biométrique avec WebAuthn
+   - Gestion des sessions avancée avec détection d'activités suspectes
+   - Analytics de sécurité avec tableaux de bord et alertes
