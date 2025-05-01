@@ -52,3 +52,8 @@ Chaque service et module frontend peut �tre d�velopp� ind�pendamment.
 Instructions � venir... 
 
 cd C:\Users\chris\corporate-saas\core-services\auth-service\src
+cd C:\Users\chris\corporate-saas\domain-services\accounting-service\src
+
+python manage.py createsuperuser
+admin
+@Degloire23@
