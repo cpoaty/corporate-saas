@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Normx AI - Service de Comptabilité{% endblock %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            min-height: 300px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 5px;
+        }
+        .btn:hover {
+            background: #2980b9;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>Normx AI</h1>
+                <ul>
+                    <li><a href="{% url 'home' %}">Accueil</a></li>
+                    <li><a href="/admin/">Administration</a></li>
+                    <li><a href="/api/accounting/">API</a></li>
+                    <li><a href="/swagger/">Documentation</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="content">
+            {% block content %}{% endblock %}
+        </main>
+        
+        <footer>
+            &copy; {% now "Y" %} Normx AI - Service de Comptabilité
+        </footer>
+    </div>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

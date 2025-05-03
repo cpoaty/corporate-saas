@@ -3,3 +3,4 @@ from .account_admin import AccountClassAdmin, AccountCategoryAdmin, AccountAdmin
 from .fiscal_admin import FiscalYearAdmin, FiscalPeriodAdmin
 
 # Pas besoin d'ajouter plus de code ici, les imports ci-dessus suffisent
+from .tiers_admin import TiersAdmin

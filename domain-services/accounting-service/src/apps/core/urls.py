@@ -3,6 +3,8 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views.account_views import AccountClassViewSet, AccountCategoryViewSet, AccountViewSet
 from .views.fiscal_year_views import FiscalYearViewSet, FiscalPeriodViewSet
+from .views.tiers_views import TiersViewSet
+from apps.core.views.home_views import home_view
 
 # Créer un routeur pour les viewsets
 router = DefaultRouter()
@@ -11,10 +13,12 @@ router.register(r'account-categories', AccountCategoryViewSet, basename='account
 router.register(r'accounts', AccountViewSet, basename='account')
 router.register(r'fiscal-years', FiscalYearViewSet, basename='fiscal-year')
 router.register(r'fiscal-periods', FiscalPeriodViewSet, basename='fiscal-period')
+router.register(r'tiers', TiersViewSet, basename='tiers')
 
 urlpatterns = [
     # Inclure les routes générées automatiquement par le routeur
     path('', include(router.urls)),
+    path('', home_view, name='home')
     
     # Vous pouvez ajouter d'autres routes personnalisées ici si nécessaire
     # path('custom-endpoint/', custom_view_function),

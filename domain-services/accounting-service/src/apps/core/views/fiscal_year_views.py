@@ -1,11 +1,11 @@
-from rest_framework import viewsets, filters, status
+from rest_framework import viewsets, filters
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from apps.core.models.fiscal_year import FiscalYear, FiscalPeriod
-from apps.core.serializers.fiscal_year_serializers import (
-    FiscalYearSerializer, 
-    FiscalPeriodSerializer
-)
+from dateutil.relativedelta import relativedelta
+from datetime import timedelta
+
+from ..models.fiscal_year import FiscalYear, FiscalPeriod
+from ..serializers.fiscal_year_serializers import FiscalYearSerializer, FiscalPeriodSerializer
 
 class FiscalYearViewSet(viewsets.ModelViewSet):
     """ViewSet pour les exercices fiscaux"""
@@ -37,27 +37,38 @@ class FiscalYearViewSet(viewsets.ModelViewSet):
     
     @action(detail=True, methods=['post'])
     def create_periods(self, request, pk=None):
-        """Endpoint pour créer les périodes d'un exercice fiscal"""
+        """Crée automatiquement des périodes pour un exercice fiscal."""
         fiscal_year = self.get_object()
-        
         period_type = request.data.get('period_type', 'monthly')
-        if period_type not in ['monthly', 'quarterly']:
-            return Response(
-                {"error": "Le type de période doit être 'monthly' ou 'quarterly'"},
-                status=status.HTTP_400_BAD_REQUEST
-            )
+        tenant_id = request.data.get('tenant_id')
         
-        try:
-            fiscal_year.create_periods(period_type=period_type)
-            return Response(
-                {"message": f"Périodes créées avec succès pour l'exercice {fiscal_year.name}"},
-                status=status.HTTP_201_CREATED
-            )
-        except Exception as e:
-            return Response(
-                {"error": str(e)},
-                status=status.HTTP_500_INTERNAL_SERVER_ERROR
-            )
+        # Logique pour créer les périodes
+        periods = []
+        if period_type == 'monthly':
+            # Créer 12 périodes mensuelles
+            start_date = fiscal_year.start_date
+            while start_date <= fiscal_year.end_date:
+                end_date = min(
+                    (start_date.replace(day=1) + relativedelta(months=1, days=-1)),
+                    fiscal_year.end_date
+                )
+                
+                period = FiscalPeriod.objects.create(
+                    fiscal_year=fiscal_year,
+                    name=f"{start_date.strftime('%B %Y')}",
+                    code=f"{start_date.strftime('%Y-%m')}",
+                    start_date=start_date,
+                    end_date=end_date,
+                    number=len(periods) + 1,
+                    tenant_id=tenant_id or fiscal_year.tenant_id
+                )
+                periods.append(period)
+                
+                # Passer au mois suivant
+                start_date = end_date + timedelta(days=1)
+        
+        serializer = FiscalPeriodSerializer(periods, many=True)
+        return Response(serializer.data)
 
 class FiscalPeriodViewSet(viewsets.ModelViewSet):
     """ViewSet pour les périodes fiscales"""

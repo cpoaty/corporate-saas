@@ -5,4 +5,5 @@ from .fiscal_year import FiscalYear, FiscalPeriod
 __all__ = [
     'AccountClass', 'AccountCategory', 'Account',
     'FiscalYear', 'FiscalPeriod'
+    'Tiers'
 ]

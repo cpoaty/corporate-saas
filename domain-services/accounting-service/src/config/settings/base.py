@@ -32,6 +32,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework_simplejwt",
     "drf_yasg",
+    "django_filters",  # Ajoutez cette ligne
 ]
 
 LOCAL_APPS = [
@@ -104,6 +105,9 @@ USE_TZ = True
 # Static files
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = [
+    BASE_DIR / "static",  # Ajoutez cette ligne pour indiquer où sont vos fichiers statiques
+]
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"

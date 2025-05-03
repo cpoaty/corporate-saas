@@ -1,0 +1,5214 @@
+[
+  {
+    "code": "10000000",
+    "libelle": "Capital"
+  },
+  {
+    "code": "10100000",
+    "libelle": "Capital social"
+  },
+  {
+    "code": "10110000",
+    "libelle": "Capital souscrit, non appelé"
+  },
+  {
+    "code": "10120000",
+    "libelle": "Capital souscrit, appelé, non versé"
+  },
+  {
+    "code": "10130000",
+    "libelle": "Capital souscrit, appelé, versé, non amorti"
+  },
+  {
+    "code": "10140000",
+    "libelle": "Capital souscrit, appelé, versé, amorti"
+  },
+  {
+    "code": "10180000",
+    "libelle": "Capital souscrit soumis à des conditions particulières"
+  },
+  {
+    "code": "10200000",
+    "libelle": "Capital par dotation"
+  },
+  {
+    "code": "10210000",
+    "libelle": "Dotation initiale"
+  },
+  {
+    "code": "10220000",
+    "libelle": "Dotations complémentaires"
+  },
+  {
+    "code": "10280000",
+    "libelle": "Autres dotations"
+  },
+  {
+    "code": "10300000",
+    "libelle": "Capital personnel"
+  },
+  {
+    "code": "10400000",
+    "libelle": "Compte de l’exploitant"
+  },
+  {
+    "code": "10410000",
+    "libelle": "Apports temporaires"
+  },
+  {
+    "code": "10420000",
+    "libelle": "Opérations courantes"
+  },
+  {
+    "code": "10430000",
+    "libelle": "Rémunérations, impôts et autres charges personnelles"
+  },
+  {
+    "code": "10470000",
+    "libelle": "Prélèvements d’autoconsommation"
+  },
+  {
+    "code": "10480000",
+    "libelle": "Autres prélèvements"
+  },
+  {
+    "code": "10500000",
+    "libelle": "Primes liées au capital social"
+  },
+  {
+    "code": "10510000",
+    "libelle": "Primes d’émission"
+  },
+  {
+    "code": "10520000",
+    "libelle": "Primes d’apport"
+  },
+  {
+    "code": "10530000",
+    "libelle": "Primes de fusion"
+  },
+  {
+    "code": "10540000",
+    "libelle": "Primes de conversion"
+  },
+  {
+    "code": "10580000",
+    "libelle": "Autres primes"
+  },
+  {
+    "code": "10600000",
+    "libelle": "Écarts de réévaluation"
+  },
+  {
+    "code": "10610000",
+    "libelle": "Écarts de réévaluation légale"
+  },
+  {
+    "code": "10620000",
+    "libelle": "Écarts de réévaluation libre"
+  },
+  {
+    "code": "10900000",
+    "libelle": "Apporteurs, capital souscrit, non appelé"
+  },
+  {
+    "code": "11000000",
+    "libelle": "Réserves"
+  },
+  {
+    "code": "11100000",
+    "libelle": "Réserve légale"
+  },
+  {
+    "code": "11200000",
+    "libelle": "Réserves statutaires ou contractuelles"
+  },
+  {
+    "code": "11300000",
+    "libelle": "Réserves réglementées"
+  },
+  {
+    "code": "11310000",
+    "libelle": "Réserves de plus-values nettes à long terme"
+  },
+  {
+    "code": "11320000",
+    "libelle": "Réserves d’attribution gratuite d’actions au personnel salarié et aux dirigeants"
+  },
+  {
+    "code": "11330000",
+    "libelle": "Réserves consécutives à l’octroi de subventions d’investissement"
+  },
+  {
+    "code": "11340000",
+    "libelle": "Réserves des valeurs mobilières donnant accès au capital"
+  },
+  {
+    "code": "12000000",
+    "libelle": "Report à nouveau"
+  },
+  {
+    "code": "12100000",
+    "libelle": "Report à nouveau créditeur"
+  },
+  {
+    "code": "12900000",
+    "libelle": "Report à nouveau débiteur"
+  },
+  {
+    "code": "12910000",
+    "libelle": "Perte nette à reporter"
+  },
+  {
+    "code": "12920000",
+    "libelle": "Perte - Amortissements réputés différés"
+  },
+  {
+    "code": "13000000",
+    "libelle": "Résultat en instance d’affectation"
+  },
+  {
+    "code": "13010000",
+    "libelle": "Résultat en instance d’affectation : bénéfice"
+  },
+  {
+    "code": "13090000",
+    "libelle": "Résultat en instance d’affectation : perte"
+  },
+  {
+    "code": "13100000",
+    "libelle": "Résultat net : bénéfice"
+  },
+  {
+    "code": "13200000",
+    "libelle": "Marge commerciale (MC)"
+  },
+  {
+    "code": "13300000",
+    "libelle": "Valeur ajoutée (VA)"
+  },
+  {
+    "code": "13400000",
+    "libelle": "Excédent brut d’exploitation (EBE)"
+  },
+  {
+    "code": "13500000",
+    "libelle": "Résultat d’exploitation (RE)"
+  },
+  {
+    "code": "13600000",
+    "libelle": "Résultat financier (RF)"
+  },
+  {
+    "code": "13700000",
+    "libelle": "Résultat des activités ordinaires (RAO)"
+  },
+  {
+    "code": "13800000",
+    "libelle": "Résultat hors activités ordinaires (RHAO)"
+  },
+  {
+    "code": "13810000",
+    "libelle": "Résultat de fusion"
+  },
+  {
+    "code": "13820000",
+    "libelle": "Résultat d’apport partiel d’actif"
+  },
+  {
+    "code": "13830000",
+    "libelle": "Résultat de scission"
+  },
+  {
+    "code": "13840000",
+    "libelle": "Résultat de liquidation"
+  },
+  {
+    "code": "13900000",
+    "libelle": "Résultat net : perte"
+  },
+  {
+    "code": "14000000",
+    "libelle": "Subventions d’investissement"
+  },
+  {
+    "code": "14100000",
+    "libelle": "Subventions d’équipement"
+  },
+  {
+    "code": "14110000",
+    "libelle": "État"
+  },
+  {
+    "code": "14120000",
+    "libelle": "Régions"
+  },
+  {
+    "code": "14130000",
+    "libelle": "Départements"
+  },
+  {
+    "code": "14140000",
+    "libelle": "Communes et collectivités publiques décentralisées"
+  },
+  {
+    "code": "14150000",
+    "libelle": "Entités publiques ou mixtes"
+  },
+  {
+    "code": "14160000",
+    "libelle": "Entités et organismes privés"
+  },
+  {
+    "code": "14170000",
+    "libelle": "Organismes internationaux"
+  },
+  {
+    "code": "14180000",
+    "libelle": "Autres"
+  },
+  {
+    "code": "14800000",
+    "libelle": "Autres subventions d’investissement"
+  },
+  {
+    "code": "15000000",
+    "libelle": "Provisions réglementées et fonds assimilés"
+  },
+  {
+    "code": "15100000",
+    "libelle": "Amortissements dérogatoires"
+  },
+  {
+    "code": "15200000",
+    "libelle": "Plus-values de cession à réinvestir"
+  },
+  {
+    "code": "15300000",
+    "libelle": "Fonds réglementés"
+  },
+  {
+    "code": "15310000",
+    "libelle": "Fonds National"
+  },
+  {
+    "code": "15320000",
+    "libelle": "Prélèvement pour le Budget"
+  },
+  {
+    "code": "15400000",
+    "libelle": "Provisions spéciales de réévaluation"
+  },
+  {
+    "code": "15500000",
+    "libelle": "Provisions réglementées relatives aux immobilisations"
+  },
+  {
+    "code": "15510000",
+    "libelle": "Reconstitution des gisements miniers et pétroliers"
+  },
+  {
+    "code": "15600000",
+    "libelle": "Provisions réglementées relatives aux stocks"
+  },
+  {
+    "code": "16000000",
+    "libelle": "Emprunts et dettes assimilées"
+  },
+  {
+    "code": "16100000",
+    "libelle": "Emprunts obligataires"
+  },
+  {
+    "code": "16110000",
+    "libelle": "Emprunts obligataires ordinaires"
+  },
+  {
+    "code": "16120000",
+    "libelle": "Emprunts obligataires convertibles en actions"
+  },
+  {
+    "code": "16130000",
+    "libelle": "Emprunts obligataires remboursables en actions"
+  },
+  {
+    "code": "16180000",
+    "libelle": "Autres emprunts obligataires"
+  },
+  {
+    "code": "16200000",
+    "libelle": "Emprunts et dettes auprès des établissements de crédit"
+  },
+  {
+    "code": "16300000",
+    "libelle": "Avances reçues de l’État"
+  },
+  {
+    "code": "16400000",
+    "libelle": "Avances reçues et comptes courants bloqués"
+  },
+  {
+    "code": "16500000",
+    "libelle": "Dépôts et cautionnements reçus"
+  },
+  {
+    "code": "16510000",
+    "libelle": "Dépôts"
+  },
+  {
+    "code": "16520000",
+    "libelle": "Cautionnements"
+  },
+  {
+    "code": "16600000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "16610000",
+    "libelle": "Sur emprunts obligataires"
+  },
+  {
+    "code": "16620000",
+    "libelle": "Sur emprunts et dettes auprès des établissements de crédit"
+  },
+  {
+    "code": "16630000",
+    "libelle": "Sur avances reçues de l’État"
+  },
+  {
+    "code": "16640000",
+    "libelle": "Sur avances reçues et comptes courants bloqués"
+  },
+  {
+    "code": "16650000",
+    "libelle": "Sur dépôts et cautionnements reçus"
+  },
+  {
+    "code": "16670000",
+    "libelle": "Sur avances assorties de conditions particulières"
+  },
+  {
+    "code": "16680000",
+    "libelle": "Sur autres emprunts et dettes"
+  },
+  {
+    "code": "16700000",
+    "libelle": "Avances assorties de conditions particulières"
+  },
+  {
+    "code": "16710000",
+    "libelle": "Avances bloquées pour augmentation du capital"
+  },
+  {
+    "code": "16720000",
+    "libelle": "Avances conditionnées par l’État"
+  },
+  {
+    "code": "16730000",
+    "libelle": "Avances conditionnées par les autres organismes africains"
+  },
+  {
+    "code": "16740000",
+    "libelle": "Avances conditionnées par les organismes internationaux"
+  },
+  {
+    "code": "16800000",
+    "libelle": "Autres emprunts et dettes"
+  },
+  {
+    "code": "16810000",
+    "libelle": "Rentes viagères capitalisées"
+  },
+  {
+    "code": "16820000",
+    "libelle": "Billets de fonds"
+  },
+  {
+    "code": "16830000",
+    "libelle": "Dettes consécutives à des titres empruntés"
+  },
+  {
+    "code": "16840000",
+    "libelle": "Emprunts participatifs"
+  },
+  {
+    "code": "16850000",
+    "libelle": "Participation des travailleurs aux bénéfices"
+  },
+  {
+    "code": "16860000",
+    "libelle": "Emprunts et dettes contractés auprès des autres tiers"
+  },
+  {
+    "code": "17000000",
+    "libelle": "Dettes de location acquisition"
+  },
+  {
+    "code": "17200000",
+    "libelle": "Dettes de location acquisition / crédit - bail immobilier"
+  },
+  {
+    "code": "17300000",
+    "libelle": "Dettes de location acquisition / crédit - bail mobilier"
+  },
+  {
+    "code": "17400000",
+    "libelle": "Dettes de location acquisition / location de vente"
+  },
+  {
+    "code": "17600000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "17620000",
+    "libelle": "Sur dettes de location acquisition / crédit-bail immobilier"
+  },
+  {
+    "code": "17630000",
+    "libelle": "Sur dettes de location acquisition / crédit-bail mobilier"
+  },
+  {
+    "code": "17640000",
+    "libelle": "Sur dettes de location acquisition / location-vente"
+  },
+  {
+    "code": "17680000",
+    "libelle": "Sur autres dettes de location acquisition"
+  },
+  {
+    "code": "17800000",
+    "libelle": "Autres dettes de location acquisition"
+  },
+  {
+    "code": "18000000",
+    "libelle": "Dettes liées à des participations et comptes de liaison des établissements et sociétés en participation"
+  },
+  {
+    "code": "18110000",
+    "libelle": "Dettes liées à des participations (groupe)"
+  },
+  {
+    "code": "18120000",
+    "libelle": "Dettes liées à des participations (hors groupe)"
+  },
+  {
+    "code": "18200000",
+    "libelle": "Dettes liées à des sociétés en participation"
+  },
+  {
+    "code": "18300000",
+    "libelle": "Intérêts courus sur dettes liées à des participations"
+  },
+  {
+    "code": "18400000",
+    "libelle": "Comptes permanents bloqués des établissements et succursales"
+  },
+  {
+    "code": "18500000",
+    "libelle": "Comptes permanents non bloqués des établissements et succursales"
+  },
+  {
+    "code": "18600000",
+    "libelle": "Comptes de liaison charges"
+  },
+  {
+    "code": "18700000",
+    "libelle": "Comptes de liaison produits"
+  },
+  {
+    "code": "18800000",
+    "libelle": "Comptes de liaison des sociétés en participation"
+  },
+  {
+    "code": "19000000",
+    "libelle": "Provisions pour risques et charges"
+  },
+  {
+    "code": "19100000",
+    "libelle": "Provisions pour litiges"
+  },
+  {
+    "code": "19200000",
+    "libelle": "Provisions pour garanties données aux clients"
+  },
+  {
+    "code": "19300000",
+    "libelle": "Provisions pour pertes sur marchés à achèvement futur"
+  },
+  {
+    "code": "19400000",
+    "libelle": "Provisions pour pertes de change"
+  },
+  {
+    "code": "19500000",
+    "libelle": "Provisions pour impôts"
+  },
+  {
+    "code": "19600000",
+    "libelle": "Provisions pour pensions et obligations similaires"
+  },
+  {
+    "code": "19610000",
+    "libelle": "Provisions pour pensions et obligations similaires - engagement de retraite"
+  },
+  {
+    "code": "19620000",
+    "libelle": "Actif du régime de retraite"
+  },
+  {
+    "code": "19700000",
+    "libelle": "Provisions pour restructuration"
+  },
+  {
+    "code": "19800000",
+    "libelle": "Autres provisions pour risques et charges"
+  },
+  {
+    "code": "19810000",
+    "libelle": "Provisions pour amendes et pénalités"
+  },
+  {
+    "code": "19830000",
+    "libelle": "Provisions pour propre assureur"
+  },
+  {
+    "code": "19840000",
+    "libelle": "Provisions pour démantèlement et remise en état"
+  },
+  {
+    "code": "19850000",
+    "libelle": "Provisions pour droits à réduction ou avantage en nature (chèques cadeau, cartes de fidélité...)"
+  },
+  {
+    "code": "19880000",
+    "libelle": "Provisions pour divers risques et charges"
+  },
+  {
+    "code": "20000000",
+    "libelle": "- Comptes d’actif immobilisé"
+  },
+  {
+    "code": "21000000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "21880000",
+    "libelle": "Divers droits et valeurs incorporels"
+  },
+  {
+    "code": "21900000",
+    "libelle": "Immobilisations incorporelles en cours"
+  },
+  {
+    "code": "21910000",
+    "libelle": "Frais de développement"
+  },
+  {
+    "code": "21930000",
+    "libelle": "Logiciels et internet"
+  },
+  {
+    "code": "21980000",
+    "libelle": "Autres droits et valeurs incorporels"
+  },
+  {
+    "code": "22000000",
+    "libelle": "Terrains"
+  },
+  {
+    "code": "22100000",
+    "libelle": "Terrains agricoles et forestiers"
+  },
+  {
+    "code": "22110000",
+    "libelle": "Terrains d’exploitation agricole"
+  },
+  {
+    "code": "22120000",
+    "libelle": "Terrains d’exploitation forestière"
+  },
+  {
+    "code": "22180000",
+    "libelle": "Autres terrains"
+  },
+  {
+    "code": "22200000",
+    "libelle": "Terrains nus"
+  },
+  {
+    "code": "22210000",
+    "libelle": "Terrains à bâtir"
+  },
+  {
+    "code": "22280000",
+    "libelle": "Autres terrains nus"
+  },
+  {
+    "code": "22300000",
+    "libelle": "Terrains bâtis"
+  },
+  {
+    "code": "22310000",
+    "libelle": "Pour bâtiments industriels et agricoles"
+  },
+  {
+    "code": "22320000",
+    "libelle": "Pour bâtiments administratifs et commerciaux"
+  },
+  {
+    "code": "22340000",
+    "libelle": "Pour bâtiments affectés aux autres opérations professionnelles"
+  },
+  {
+    "code": "22350000",
+    "libelle": "Pour bâtiments affectés aux autres opérations non professionnelles"
+  },
+  {
+    "code": "22380000",
+    "libelle": "Autres terrains bâtis"
+  },
+  {
+    "code": "22400000",
+    "libelle": "Travaux de mise en valeur des terrains"
+  },
+  {
+    "code": "22410000",
+    "libelle": "Plantation d’arbres et d’arbustes"
+  },
+  {
+    "code": "22450000",
+    "libelle": "Améliorations du fonds"
+  },
+  {
+    "code": "22480000",
+    "libelle": "Autres travaux"
+  },
+  {
+    "code": "22500000",
+    "libelle": "Terrains de carrières - tréfonds"
+  },
+  {
+    "code": "22510000",
+    "libelle": "Carrières"
+  },
+  {
+    "code": "22600000",
+    "libelle": "Terrains aménagés"
+  },
+  {
+    "code": "22610000",
+    "libelle": "Parkings"
+  },
+  {
+    "code": "22700000",
+    "libelle": "Terrains mis en concession"
+  },
+  {
+    "code": "22800000",
+    "libelle": "Autres terrains"
+  },
+  {
+    "code": "22810000",
+    "libelle": "Terrains - immeubles de placement"
+  },
+  {
+    "code": "22850000",
+    "libelle": "Terrains des logements affectés au personnel"
+  },
+  {
+    "code": "22860000",
+    "libelle": "Terrains de location - acquisition"
+  },
+  {
+    "code": "22880000",
+    "libelle": "Divers terrains"
+  },
+  {
+    "code": "22900000",
+    "libelle": "Aménagements de terrains en cours"
+  },
+  {
+    "code": "22910000",
+    "libelle": "Terrains agricoles et forestiers"
+  },
+  {
+    "code": "22920000",
+    "libelle": "Terrains nus"
+  },
+  {
+    "code": "22950000",
+    "libelle": "Terrains de carrières - tréfonds"
+  },
+  {
+    "code": "22980000",
+    "libelle": "Autres terrains"
+  },
+  {
+    "code": "23000000",
+    "libelle": "Bâtiments, installations techniques et agencements"
+  },
+  {
+    "code": "23240000",
+    "libelle": "Bâtiments affectés au logement du personnel"
+  },
+  {
+    "code": "23250000",
+    "libelle": "Bâtiments - immeubles de placement"
+  },
+  {
+    "code": "23260000",
+    "libelle": "Bâtiments de location - acquisition"
+  },
+  {
+    "code": "23300000",
+    "libelle": "Ouvrages d’infrastructure"
+  },
+  {
+    "code": "23310000",
+    "libelle": "Voies de terre"
+  },
+  {
+    "code": "23320000",
+    "libelle": "Voies de fer"
+  },
+  {
+    "code": "23330000",
+    "libelle": "Voies d’eau"
+  },
+  {
+    "code": "23340000",
+    "libelle": "Barrages, Digues"
+  },
+  {
+    "code": "23350000",
+    "libelle": "Pistes d’aérodrome"
+  },
+  {
+    "code": "23380000",
+    "libelle": "Autres ouvrages d’infrastructures"
+  },
+  {
+    "code": "23400000",
+    "libelle": "Aménagements, agencements et installations techniques"
+  },
+  {
+    "code": "23410000",
+    "libelle": "Installations complexes spécialisées sur sol propre"
+  },
+  {
+    "code": "23420000",
+    "libelle": "Installations complexes spécialisées sur sol d’autrui"
+  },
+  {
+    "code": "23430000",
+    "libelle": "Installations à caractère spécifique sur sol propre"
+  },
+  {
+    "code": "23440000",
+    "libelle": "Installations à caractère spécifique sur sol d’autrui"
+  },
+  {
+    "code": "23450000",
+    "libelle": "Aménagements et agencements des bâtiments"
+  },
+  {
+    "code": "23500000",
+    "libelle": "Aménagements de bureaux"
+  },
+  {
+    "code": "23510000",
+    "libelle": "Installations générales"
+  },
+  {
+    "code": "23580000",
+    "libelle": "Autres aménagements de bureaux"
+  },
+  {
+    "code": "23700000",
+    "libelle": "Bâtiments industriels, agricoles et commerciaux mis en concession"
+  },
+  {
+    "code": "23800000",
+    "libelle": "Autres installations et agencements"
+  },
+  {
+    "code": "23900000",
+    "libelle": "Bâtiments aménagements, agencements et installations en cours"
+  },
+  {
+    "code": "23910000",
+    "libelle": "Bâtiments en cours"
+  },
+  {
+    "code": "23920000",
+    "libelle": "Installations en cours"
+  },
+  {
+    "code": "23930000",
+    "libelle": "Ouvrages d’infrastructure en cours"
+  },
+  {
+    "code": "23940000",
+    "libelle": "Aménagements et agencements et installations techniques en cours"
+  },
+  {
+    "code": "23950000",
+    "libelle": "Aménagements de bureaux en cours"
+  },
+  {
+    "code": "23980000",
+    "libelle": "Autres installations et agencements en cours"
+  },
+  {
+    "code": "24000000",
+    "libelle": "Matériel, mobilier et actifs biologiques"
+  },
+  {
+    "code": "24100000",
+    "libelle": "Matériel et outillage industriel et commercial"
+  },
+  {
+    "code": "24110000",
+    "libelle": "Matériel industriel"
+  },
+  {
+    "code": "24120000",
+    "libelle": "Outillage industriel"
+  },
+  {
+    "code": "24130000",
+    "libelle": "Matériel commercial"
+  },
+  {
+    "code": "24140000",
+    "libelle": "Outillage commercial"
+  },
+  {
+    "code": "24160000",
+    "libelle": "Matériel & outillage industriel et commercial de location-acquisition"
+  },
+  {
+    "code": "24200000",
+    "libelle": "Matériel et outillage agricole"
+  },
+  {
+    "code": "24210000",
+    "libelle": "Matériel agricole"
+  },
+  {
+    "code": "24220000",
+    "libelle": "Outillage agricole"
+  },
+  {
+    "code": "24260000",
+    "libelle": "Matériel & outillage agricole de location-acquisition"
+  },
+  {
+    "code": "24300000",
+    "libelle": "Matériel d’emballage récupérable et identifiable"
+  },
+  {
+    "code": "24400000",
+    "libelle": "Matériel et mobilier"
+  },
+  {
+    "code": "24410000",
+    "libelle": "Matériel de bureau"
+  },
+  {
+    "code": "24420000",
+    "libelle": "Matériel informatique"
+  },
+  {
+    "code": "24430000",
+    "libelle": "Matériel bureautique"
+  },
+  {
+    "code": "24440000",
+    "libelle": "Mobilier de bureau"
+  },
+  {
+    "code": "24450000",
+    "libelle": "Matériel et mobilier - immeubles de placement"
+  },
+  {
+    "code": "24460000",
+    "libelle": "Matériel et mobilier de location - acquisition"
+  },
+  {
+    "code": "24470000",
+    "libelle": "Matériel et mobilier des logements du personnel"
+  },
+  {
+    "code": "24500000",
+    "libelle": "Matériel de transport"
+  },
+  {
+    "code": "24510000",
+    "libelle": "Matériel automobile"
+  },
+  {
+    "code": "24520000",
+    "libelle": "Matériel ferroviaire"
+  },
+  {
+    "code": "24530000",
+    "libelle": "Matériel fluvial, lagunaire"
+  },
+  {
+    "code": "24540000",
+    "libelle": "Matériel naval"
+  },
+  {
+    "code": "24550000",
+    "libelle": "Matériel aérien"
+  },
+  {
+    "code": "24560000",
+    "libelle": "Matériel de transport de location-acquisition"
+  },
+  {
+    "code": "24570000",
+    "libelle": "Matériel hippomobile"
+  },
+  {
+    "code": "24580000",
+    "libelle": "Autres matériels de transport"
+  },
+  {
+    "code": "24600000",
+    "libelle": "Actifs biologiques"
+  },
+  {
+    "code": "24610000",
+    "libelle": "Cheptel, animaux de trait"
+  },
+  {
+    "code": "24620000",
+    "libelle": "Cheptel, animaux reproducteurs"
+  },
+  {
+    "code": "24630000",
+    "libelle": "Animaux de garde"
+  },
+  {
+    "code": "24650000",
+    "libelle": "Plantations agricoles"
+  },
+  {
+    "code": "24680000",
+    "libelle": "Autres actifs biologiques"
+  },
+  {
+    "code": "24700000",
+    "libelle": "Agencements, aménagements du matériel et actifs biologiques"
+  },
+  {
+    "code": "24710000",
+    "libelle": "Agencements et aménagements du matériel"
+  },
+  {
+    "code": "24720000",
+    "libelle": "Agencements et aménagements des actifs biologiques"
+  },
+  {
+    "code": "24780000",
+    "libelle": "Autres agencements, aménagements du matériel et actifs biologiques"
+  },
+  {
+    "code": "24800000",
+    "libelle": "Autres matériels et mobiliers"
+  },
+  {
+    "code": "24810000",
+    "libelle": "Collections et œuvres d’art"
+  },
+  {
+    "code": "24880000",
+    "libelle": "Divers matériels mobiliers"
+  },
+  {
+    "code": "24900000",
+    "libelle": "Matériels et actifs biologiques en cours"
+  },
+  {
+    "code": "24910000",
+    "libelle": "Matériel et outillage industriel et commercial"
+  },
+  {
+    "code": "24920000",
+    "libelle": "Matériel et outillage agricole"
+  },
+  {
+    "code": "24930000",
+    "libelle": "Matériel d’emballage récupérable et identifiable"
+  },
+  {
+    "code": "24940000",
+    "libelle": "Matériel et mobilier de bureau"
+  },
+  {
+    "code": "24950000",
+    "libelle": "Matériel de transport"
+  },
+  {
+    "code": "24960000",
+    "libelle": "Actifs biologiques"
+  },
+  {
+    "code": "24970000",
+    "libelle": "Agencements aménagements du matériel et actifs biologiques"
+  },
+  {
+    "code": "24980000",
+    "libelle": "Autres matériels et actifs biologiques en cours"
+  },
+  {
+    "code": "25000000",
+    "libelle": "Avances et acomptes versés sur immobilisations"
+  },
+  {
+    "code": "25100000",
+    "libelle": "Avances et acomptes versés sur immobilisations incorporelles"
+  },
+  {
+    "code": "25200000",
+    "libelle": "Avances et acomptes versés sur immobilisations corporelles"
+  },
+  {
+    "code": "26000000",
+    "libelle": "Titres de participation"
+  },
+  {
+    "code": "26100000",
+    "libelle": "Titres de participation dans des sociétés sous contrôle exclusif"
+  },
+  {
+    "code": "26200000",
+    "libelle": "Titres de participation dans des sociétés sous contrôle conjoint"
+  },
+  {
+    "code": "26300000",
+    "libelle": "Titres de participation dans des sociétés conférant une influence notable"
+  },
+  {
+    "code": "26500000",
+    "libelle": "Participations dans des organismes professionnels"
+  },
+  {
+    "code": "26600000",
+    "libelle": "Parts dans des groupements d’intérêt économique (GIE)"
+  },
+  {
+    "code": "26800000",
+    "libelle": "Autres titres de participation"
+  },
+  {
+    "code": "27000000",
+    "libelle": "Autres immobilisations financières"
+  },
+  {
+    "code": "27100000",
+    "libelle": "Prêts et créances"
+  },
+  {
+    "code": "27110000",
+    "libelle": "Prêts participatifs"
+  },
+  {
+    "code": "27120000",
+    "libelle": "Prêts aux associés"
+  },
+  {
+    "code": "27130000",
+    "libelle": "Billets de fonds"
+  },
+  {
+    "code": "27140000",
+    "libelle": "Titres prêtés"
+  },
+  {
+    "code": "27180000",
+    "libelle": "Autres prêts et créances"
+  },
+  {
+    "code": "27200000",
+    "libelle": "Prêts au personnel"
+  },
+  {
+    "code": "27210000",
+    "libelle": "Prêts immobiliers"
+  },
+  {
+    "code": "27220000",
+    "libelle": "Prêts mobiliers et d’installation"
+  },
+  {
+    "code": "27280000",
+    "libelle": "Autres prêts au personnel"
+  },
+  {
+    "code": "27300000",
+    "libelle": "Créances sur l’État"
+  },
+  {
+    "code": "27310000",
+    "libelle": "Retenues de garantie"
+  },
+  {
+    "code": "27330000",
+    "libelle": "Fonds réglementé"
+  },
+  {
+    "code": "27340000",
+    "libelle": "Créances sur le concédant"
+  },
+  {
+    "code": "27380000",
+    "libelle": "Autres créances sur l’État"
+  },
+  {
+    "code": "27400000",
+    "libelle": "Titres immobilisés"
+  },
+  {
+    "code": "27410000",
+    "libelle": "Titres immobilisés de l’activité de portefeuille (TIAP)"
+  },
+  {
+    "code": "27420000",
+    "libelle": "Titres participatifs"
+  },
+  {
+    "code": "27430000",
+    "libelle": "Certificats d’investissement"
+  },
+  {
+    "code": "27440000",
+    "libelle": "Parts de fonds commun de placement (FCP)"
+  },
+  {
+    "code": "27450000",
+    "libelle": "Obligations"
+  },
+  {
+    "code": "27460000",
+    "libelle": "Actions ou parts propres"
+  },
+  {
+    "code": "27480000",
+    "libelle": "Autres titres immobilisés"
+  },
+  {
+    "code": "27500000",
+    "libelle": "Dépôts et cautionnements versés"
+  },
+  {
+    "code": "27510000",
+    "libelle": "Dépôts pour loyers d’avance"
+  },
+  {
+    "code": "27520000",
+    "libelle": "Dépôts pour l’électricité"
+  },
+  {
+    "code": "27530000",
+    "libelle": "Dépôts pour l’eau"
+  },
+  {
+    "code": "27540000",
+    "libelle": "Dépôts pour le gaz"
+  },
+  {
+    "code": "27550000",
+    "libelle": "Dépôts pour le téléphone, le télex, la télécopie"
+  },
+  {
+    "code": "27560000",
+    "libelle": "Cautionnements sur marchés publics"
+  },
+  {
+    "code": "27570000",
+    "libelle": "Cautionnements sur autres opérations"
+  },
+  {
+    "code": "27580000",
+    "libelle": "Autres dépôts et cautionnements"
+  },
+  {
+    "code": "27600000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "27610000",
+    "libelle": "Prêts et créances non commerciales"
+  },
+  {
+    "code": "27620000",
+    "libelle": "Prêts au personnel"
+  },
+  {
+    "code": "27630000",
+    "libelle": "Créances sur l’État"
+  },
+  {
+    "code": "27640000",
+    "libelle": "Titres immobilisés"
+  },
+  {
+    "code": "27650000",
+    "libelle": "Dépôts et cautionnements versés"
+  },
+  {
+    "code": "27670000",
+    "libelle": "Créances rattachées à des participations"
+  },
+  {
+    "code": "27680000",
+    "libelle": "Immobilisations financières diverses"
+  },
+  {
+    "code": "27700000",
+    "libelle": "Créances rattachées à des participations et avances à des GIE"
+  },
+  {
+    "code": "27710000",
+    "libelle": "Créances rattachées à des participations (groupe)"
+  },
+  {
+    "code": "27720000",
+    "libelle": "Créances rattachées à des participations (hors groupe)"
+  },
+  {
+    "code": "27730000",
+    "libelle": "Créances rattachées à des sociétés en participation"
+  },
+  {
+    "code": "27740000",
+    "libelle": "Avances à des Groupements d’intérêt économique (GIE)"
+  },
+  {
+    "code": "27800000",
+    "libelle": "Immobilisations financières diverses"
+  },
+  {
+    "code": "27810000",
+    "libelle": "Créances diverses groupe"
+  },
+  {
+    "code": "27820000",
+    "libelle": "Créances diverses hors groupe"
+  },
+  {
+    "code": "27840000",
+    "libelle": "Banques dépôts à terme"
+  },
+  {
+    "code": "27850000",
+    "libelle": "Or et métaux précieux"
+  },
+  {
+    "code": "27880000",
+    "libelle": "Autres immobilisations financières"
+  },
+  {
+    "code": "28000000",
+    "libelle": "Amortissements"
+  },
+  {
+    "code": "28100000",
+    "libelle": "Amortissements des immobilisations incorporelles"
+  },
+  {
+    "code": "28110000",
+    "libelle": "Amortissements des frais de développement"
+  },
+  {
+    "code": "28120000",
+    "libelle": "Amortissements des brevets, licences, concessions et droits similaires"
+  },
+  {
+    "code": "28130000",
+    "libelle": "Amortissements des logiciels et sites internet"
+  },
+  {
+    "code": "28140000",
+    "libelle": "Amortissements des marques"
+  },
+  {
+    "code": "28150000",
+    "libelle": "Amortissements du fonds commercial"
+  },
+  {
+    "code": "28160000",
+    "libelle": "Amortissements du droit au bail"
+  },
+  {
+    "code": "28170000",
+    "libelle": "Amortissements des investissements de création"
+  },
+  {
+    "code": "28180000",
+    "libelle": "Amortissements des autres droits et valeurs incorporels"
+  },
+  {
+    "code": "28200000",
+    "libelle": "Amortissements des terrains"
+  },
+  {
+    "code": "28240000",
+    "libelle": "Amortissements des travaux de mise en valeur des terrains"
+  },
+  {
+    "code": "28300000",
+    "libelle": "Amortissements des bâtiments, installations techniques et agencements"
+  },
+  {
+    "code": "28310000",
+    "libelle": "Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre"
+  },
+  {
+    "code": "28320000",
+    "libelle": "Amortissements des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d’autrui"
+  },
+  {
+    "code": "28330000",
+    "libelle": "Amortissements des ouvrages d’infrastructure"
+  },
+  {
+    "code": "28340000",
+    "libelle": "Amortissements des aménagements, agencements et installations techniques"
+  },
+  {
+    "code": "28350000",
+    "libelle": "Amortissements des aménagements de bureaux"
+  },
+  {
+    "code": "28370000",
+    "libelle": "Amortissements des bâtiments industriels, agricoles et commerciaux mis en concession"
+  },
+  {
+    "code": "28380000",
+    "libelle": "Amortissements des autres installations et agencements"
+  },
+  {
+    "code": "28400000",
+    "libelle": "Amortissements du matériel"
+  },
+  {
+    "code": "28410000",
+    "libelle": "Amortissements du matériel et outillage industriel et commercial"
+  },
+  {
+    "code": "28420000",
+    "libelle": "Amortissements du matériel et outillage agricole"
+  },
+  {
+    "code": "28430000",
+    "libelle": "Amortissements du matériel d’emballage récupérable et identifiable"
+  },
+  {
+    "code": "28440000",
+    "libelle": "Amortissements du matériel et mobilier"
+  },
+  {
+    "code": "28450000",
+    "libelle": "Amortissements du matériel de transport"
+  },
+  {
+    "code": "28460000",
+    "libelle": "Amortissements des actifs biologiques"
+  },
+  {
+    "code": "28470000",
+    "libelle": "Amortissements des agencements et aménagements du matériel et des actifs biologiques"
+  },
+  {
+    "code": "28480000",
+    "libelle": "Amortissements des autres matériels"
+  },
+  {
+    "code": "29000000",
+    "libelle": "Dépréciations des immobilisations"
+  },
+  {
+    "code": "29100000",
+    "libelle": "Dépréciations des immobilisations incorporelles"
+  },
+  {
+    "code": "29110000",
+    "libelle": "Dépréciations des frais de développement"
+  },
+  {
+    "code": "29120000",
+    "libelle": "Dépréciations des brevets, licences, concessions et droits similaires"
+  },
+  {
+    "code": "29130000",
+    "libelle": "Dépréciations des logiciels et sites internet"
+  },
+  {
+    "code": "29140000",
+    "libelle": "Dépréciations des marques"
+  },
+  {
+    "code": "29150000",
+    "libelle": "Dépréciations du fonds commercial"
+  },
+  {
+    "code": "29160000",
+    "libelle": "Dépréciations du droit au bail"
+  },
+  {
+    "code": "29170000",
+    "libelle": "Dépréciations des investissements de création"
+  },
+  {
+    "code": "29180000",
+    "libelle": "Dépréciations des autres droits et valeurs incorporels"
+  },
+  {
+    "code": "29190000",
+    "libelle": "Dépréciations des immobilisations incorporelles en cours"
+  },
+  {
+    "code": "29200000",
+    "libelle": "Dépréciations des terrains"
+  },
+  {
+    "code": "29210000",
+    "libelle": "Dépréciations des terrains agricoles et forestiers"
+  },
+  {
+    "code": "29220000",
+    "libelle": "Dépréciations des terrains nus"
+  },
+  {
+    "code": "29230000",
+    "libelle": "Dépréciations des terrains bâtis"
+  },
+  {
+    "code": "29240000",
+    "libelle": "Dépréciations des travaux de mise en valeur des terrains"
+  },
+  {
+    "code": "29250000",
+    "libelle": "Dépréciations des terrains de gisement"
+  },
+  {
+    "code": "29260000",
+    "libelle": "Dépréciations des terrains aménagés"
+  },
+  {
+    "code": "29270000",
+    "libelle": "Dépréciations des terrains mis en concession"
+  },
+  {
+    "code": "29280000",
+    "libelle": "Dépréciations des autres terrains"
+  },
+  {
+    "code": "29290000",
+    "libelle": "Dépréciations des aménagements de terrains en cours"
+  },
+  {
+    "code": "29300000",
+    "libelle": "Dépréciations des bâtiments et installations en cours"
+  },
+  {
+    "code": "29310000",
+    "libelle": "Dépréciations des bâtiments industriels, agricoles, administratifs et commerciaux sur sol propre"
+  },
+  {
+    "code": "29320000",
+    "libelle": "Dépréciations des bâtiments industriels, agricoles, administratifs et commerciaux sur sol d’autrui"
+  },
+  {
+    "code": "29330000",
+    "libelle": "Dépréciations des ouvrages d’infrastructures"
+  },
+  {
+    "code": "29340000",
+    "libelle": "Dépréciations des aménagements, agencements et installations techniques"
+  },
+  {
+    "code": "29400000",
+    "libelle": "Dépréciations de matériel, du mobilier et de l’actif biologique"
+  },
+  {
+    "code": "29410000",
+    "libelle": "Dépréciations du matériel et outillage industriel et commercial"
+  },
+  {
+    "code": "29420000",
+    "libelle": "Dépréciations du matériel et outillage agricole"
+  },
+  {
+    "code": "29430000",
+    "libelle": "Dépréciations du matériel d’emballage récupérable et identifiable"
+  },
+  {
+    "code": "29440000",
+    "libelle": "Dépréciations du matériel et mobilier"
+  },
+  {
+    "code": "29450000",
+    "libelle": "Dépréciations du matériel de transport"
+  },
+  {
+    "code": "29460000",
+    "libelle": "Dépréciations des actifs biologiques"
+  },
+  {
+    "code": "29470000",
+    "libelle": "Dépréciations des agencements et aménagements du matériel et des actifs biologiques"
+  },
+  {
+    "code": "29480000",
+    "libelle": "Dépréciations des autres matériels"
+  },
+  {
+    "code": "29490000",
+    "libelle": "Dépréciations de matériel en cours"
+  },
+  {
+    "code": "29500000",
+    "libelle": "Dépréciations des avances et acomptes versés sur immobilisations"
+  },
+  {
+    "code": "29510000",
+    "libelle": "Dépréciations des avances et acomptes versés sur immobilisations incorporelles"
+  },
+  {
+    "code": "29520000",
+    "libelle": "Dépréciations des avances et acomptes versés sur immobilisations corporelles"
+  },
+  {
+    "code": "29600000",
+    "libelle": "Dépréciations des titres de participation"
+  },
+  {
+    "code": "29610000",
+    "libelle": "Dépréciations des titres de participation dans des sociétés sous contrôle exclusif"
+  },
+  {
+    "code": "29620000",
+    "libelle": "Dépréciations des titres de participation dans les sociétés sous contrôle conjoint"
+  },
+  {
+    "code": "29630000",
+    "libelle": "Dépréciations des titres de participation dans les sociétés conférant une influence notable"
+  },
+  {
+    "code": "29650000",
+    "libelle": "Dépréciations des participations dans des organismes professionnels"
+  },
+  {
+    "code": "29660000",
+    "libelle": "Dépréciations des parts dans des GIE"
+  },
+  {
+    "code": "29680000",
+    "libelle": "Dépréciations des autres titres de participation"
+  },
+  {
+    "code": "29700000",
+    "libelle": "Dépréciations des autres immobilisations financières"
+  },
+  {
+    "code": "29710000",
+    "libelle": "Dépréciations des prêts et créances"
+  },
+  {
+    "code": "29720000",
+    "libelle": "Dépréciations des prêts au personnel"
+  },
+  {
+    "code": "29730000",
+    "libelle": "Dépréciations des créances sur l’État"
+  },
+  {
+    "code": "29740000",
+    "libelle": "Dépréciations des titres immobilisés"
+  },
+  {
+    "code": "29750000",
+    "libelle": "Dépréciations des dépôts et cautionnements versés"
+  },
+  {
+    "code": "29770000",
+    "libelle": "Dépréciations des créances rattachées à des participations et avances à des GIE"
+  },
+  {
+    "code": "29780000",
+    "libelle": "Dépréciations des créances financières diverses"
+  },
+  {
+    "code": "30000000",
+    "libelle": "- Comptes de stocks"
+  },
+  {
+    "code": "31000000",
+    "libelle": "Marchandises"
+  },
+  {
+    "code": "31100000",
+    "libelle": "Marchandises A"
+  },
+  {
+    "code": "31110000",
+    "libelle": "Marchandises A1"
+  },
+  {
+    "code": "31120000",
+    "libelle": "Marchandises A2"
+  },
+  {
+    "code": "31200000",
+    "libelle": "Marchandises B"
+  },
+  {
+    "code": "31210000",
+    "libelle": "Marchandises B1"
+  },
+  {
+    "code": "31220000",
+    "libelle": "Marchandises B2"
+  },
+  {
+    "code": "31300000",
+    "libelle": "Actifs biologiques"
+  },
+  {
+    "code": "31310000",
+    "libelle": "Animaux"
+  },
+  {
+    "code": "31320000",
+    "libelle": "Végétaux"
+  },
+  {
+    "code": "31800000",
+    "libelle": "Marchandises hors activités ordinaires (HAO)"
+  },
+  {
+    "code": "32000000",
+    "libelle": "Matières premières et fournitures liées"
+  },
+  {
+    "code": "32100000",
+    "libelle": "Matières A"
+  },
+  {
+    "code": "32200000",
+    "libelle": "Matières B"
+  },
+  {
+    "code": "32300000",
+    "libelle": "Fournitures (A, B)"
+  },
+  {
+    "code": "33000000",
+    "libelle": "Autres approvisionnements"
+  },
+  {
+    "code": "33100000",
+    "libelle": "Matières consommables"
+  },
+  {
+    "code": "33200000",
+    "libelle": "Fournitures d’atelier et d’usine"
+  },
+  {
+    "code": "33300000",
+    "libelle": "Fournitures de magasin"
+  },
+  {
+    "code": "33400000",
+    "libelle": "Fournitures de bureau"
+  },
+  {
+    "code": "33500000",
+    "libelle": "Emballages"
+  },
+  {
+    "code": "33510000",
+    "libelle": "Emballages perdus"
+  },
+  {
+    "code": "33520000",
+    "libelle": "Emballages récupérables non identifiables"
+  },
+  {
+    "code": "33530000",
+    "libelle": "Emballages à usage mixte"
+  },
+  {
+    "code": "33580000",
+    "libelle": "Autres emballages"
+  },
+  {
+    "code": "33800000",
+    "libelle": "Autres matières"
+  },
+  {
+    "code": "34000000",
+    "libelle": "Produits en cours"
+  },
+  {
+    "code": "34100000",
+    "libelle": "Produits en cours"
+  },
+  {
+    "code": "34110000",
+    "libelle": "Produits en cours P1"
+  },
+  {
+    "code": "34120000",
+    "libelle": "Produits en cours P2"
+  },
+  {
+    "code": "34200000",
+    "libelle": "Travaux en cours"
+  },
+  {
+    "code": "34210000",
+    "libelle": "Travaux en cours T1"
+  },
+  {
+    "code": "34220000",
+    "libelle": "Travaux en cours T2"
+  },
+  {
+    "code": "34300000",
+    "libelle": "Produits intermédiaires en cours"
+  },
+  {
+    "code": "34310000",
+    "libelle": "Produits intermédiaires A"
+  },
+  {
+    "code": "34320000",
+    "libelle": "Produits intermédiaires B"
+  },
+  {
+    "code": "34400000",
+    "libelle": "Produits résiduels en cours"
+  },
+  {
+    "code": "34410000",
+    "libelle": "Produits résiduels A"
+  },
+  {
+    "code": "34420000",
+    "libelle": "Produits résiduels B"
+  },
+  {
+    "code": "34500000",
+    "libelle": "Actifs biologiques en cours"
+  },
+  {
+    "code": "34510000",
+    "libelle": "Animaux"
+  },
+  {
+    "code": "34520000",
+    "libelle": "Végétaux"
+  },
+  {
+    "code": "35000000",
+    "libelle": "Services en cours"
+  },
+  {
+    "code": "35100000",
+    "libelle": "Études en cours"
+  },
+  {
+    "code": "35110000",
+    "libelle": "Études en cours E1"
+  },
+  {
+    "code": "35120000",
+    "libelle": "Études en cours E2"
+  },
+  {
+    "code": "35200000",
+    "libelle": "Prestations de services en cours"
+  },
+  {
+    "code": "35210000",
+    "libelle": "Prestations de services S1"
+  },
+  {
+    "code": "35220000",
+    "libelle": "Prestations de services S2"
+  },
+  {
+    "code": "36000000",
+    "libelle": "Produits finis"
+  },
+  {
+    "code": "36100000",
+    "libelle": "Produits finis A"
+  },
+  {
+    "code": "36200000",
+    "libelle": "Produits finis B"
+  },
+  {
+    "code": "36300000",
+    "libelle": "Actifs biologiques"
+  },
+  {
+    "code": "36310000",
+    "libelle": "Animaux"
+  },
+  {
+    "code": "36320000",
+    "libelle": "Végétaux"
+  },
+  {
+    "code": "36380000",
+    "libelle": "Autres stocks (activités annexes)"
+  },
+  {
+    "code": "37000000",
+    "libelle": "Produits intermédiaires et résiduels"
+  },
+  {
+    "code": "37100000",
+    "libelle": "Produits intermédiaires"
+  },
+  {
+    "code": "37110000",
+    "libelle": "Produits intermédiaires A"
+  },
+  {
+    "code": "37120000",
+    "libelle": "Produits intermédiaires B"
+  },
+  {
+    "code": "37200000",
+    "libelle": "Produits résiduels"
+  },
+  {
+    "code": "37210000",
+    "libelle": "Déchets"
+  },
+  {
+    "code": "37220000",
+    "libelle": "Rebuts"
+  },
+  {
+    "code": "37230000",
+    "libelle": "Matières de Récupération"
+  },
+  {
+    "code": "37300000",
+    "libelle": "Actifs biologiques"
+  },
+  {
+    "code": "37310000",
+    "libelle": "Animaux"
+  },
+  {
+    "code": "37320000",
+    "libelle": "Végétaux"
+  },
+  {
+    "code": "37380000",
+    "libelle": "Autres stocks (activités annexes)"
+  },
+  {
+    "code": "38000000",
+    "libelle": "Stocks en cours de route, en consignation ou en dépôt"
+  },
+  {
+    "code": "38100000",
+    "libelle": "Marchandises en cours de route"
+  },
+  {
+    "code": "38200000",
+    "libelle": "Matières premières et fournitures liées en cours de route"
+  },
+  {
+    "code": "38300000",
+    "libelle": "Autres approvisionnements en cours de route"
+  },
+  {
+    "code": "38600000",
+    "libelle": "Produits finis en cours de route"
+  },
+  {
+    "code": "38700000",
+    "libelle": "Stock en consignation ou en dépôt"
+  },
+  {
+    "code": "38710000",
+    "libelle": "Stock en consignation"
+  },
+  {
+    "code": "38720000",
+    "libelle": "Stock en dépôt"
+  },
+  {
+    "code": "38800000",
+    "libelle": "Stock provenant d’immobilisations mises hors service ou au rebut"
+  },
+  {
+    "code": "39000000",
+    "libelle": "Dépréciations des stocks et en-cours de production"
+  },
+  {
+    "code": "39100000",
+    "libelle": "Dépréciations des stocks de marchandises"
+  },
+  {
+    "code": "39200000",
+    "libelle": "Dépréciations des stocks de matières premières et fournitures liées"
+  },
+  {
+    "code": "39300000",
+    "libelle": "Dépréciations des stocks d’autres approvisionnements"
+  },
+  {
+    "code": "39400000",
+    "libelle": "Dépréciations des productions en cours"
+  },
+  {
+    "code": "39500000",
+    "libelle": "Dépréciations des services en cours"
+  },
+  {
+    "code": "39600000",
+    "libelle": "Dépréciations des stocks de produits finis"
+  },
+  {
+    "code": "39700000",
+    "libelle": "Dépréciations des stocks de produits intermédiaires et résiduels"
+  },
+  {
+    "code": "39800000",
+    "libelle": "Dépréciations des stocks en cours de route, en consignation ou en dépôt"
+  },
+  {
+    "code": "40000000",
+    "libelle": "Fournisseurs et comptes rattachés"
+  },
+  {
+    "code": "40100000",
+    "libelle": "Fournisseurs, dettes en compte"
+  },
+  {
+    "code": "40110000",
+    "libelle": "Fournisseurs"
+  },
+  {
+    "code": "40120000",
+    "libelle": "Fournisseurs groupe"
+  },
+  {
+    "code": "40130000",
+    "libelle": "Fournisseurs sous-traitants"
+  },
+  {
+    "code": "40160000",
+    "libelle": "Fournisseurs, réserve de propriété"
+  },
+  {
+    "code": "40170000",
+    "libelle": "Fournisseur, retenues de garantie"
+  },
+  {
+    "code": "40200000",
+    "libelle": "Fournisseurs, effets à payer"
+  },
+  {
+    "code": "40210000",
+    "libelle": "Fournisseurs - Effets à payer"
+  },
+  {
+    "code": "40220000",
+    "libelle": "Fournisseurs - Groupe, effets à payer"
+  },
+  {
+    "code": "40230000",
+    "libelle": "Fournisseurs - Sous-traitants, effets à payer"
+  },
+  {
+    "code": "40400000",
+    "libelle": "Fournisseurs, acquisitions courantes d’immobilisations"
+  },
+  {
+    "code": "40410000",
+    "libelle": "Fournisseurs - Dettes en comptes, immobilisations incorporelles"
+  },
+  {
+    "code": "40420000",
+    "libelle": "Fournisseurs - Dettes en comptes, immobilisations corporelles"
+  },
+  {
+    "code": "40460000",
+    "libelle": "Fournisseurs - Effets à payer, immobilisations incorporelles"
+  },
+  {
+    "code": "40470000",
+    "libelle": "Fournisseurs - Effets à payer, immobilisations corporelles"
+  },
+  {
+    "code": "40800000",
+    "libelle": "Fournisseurs, factures non parvenues"
+  },
+  {
+    "code": "40810000",
+    "libelle": "Fournisseurs"
+  },
+  {
+    "code": "40820000",
+    "libelle": "Fournisseurs groupe"
+  },
+  {
+    "code": "40830000",
+    "libelle": "Fournisseurs sous-traitants"
+  },
+  {
+    "code": "40860000",
+    "libelle": "Fournisseurs, intérêts courus"
+  },
+  {
+    "code": "40900000",
+    "libelle": "Fournisseurs débiteurs"
+  },
+  {
+    "code": "40910000",
+    "libelle": "Fournisseurs - Avances et acomptes versés"
+  },
+  {
+    "code": "40920000",
+    "libelle": "Fournisseurs - Groupe avances et acomptes versés"
+  },
+  {
+    "code": "40930000",
+    "libelle": "Fournisseurs - Sous-traitants avances et acomptes versés"
+  },
+  {
+    "code": "40940000",
+    "libelle": "Fournisseurs - Créances pour emballages et matériels à rendre"
+  },
+  {
+    "code": "40980000",
+    "libelle": "Fournisseurs - Rabais, remises, ristournes et autres avoirs à obtenir"
+  },
+  {
+    "code": "41000000",
+    "libelle": "Clients et comptes rattachés"
+  },
+  {
+    "code": "41100000",
+    "libelle": "Clients"
+  },
+  {
+    "code": "41110000",
+    "libelle": "Clients"
+  },
+  {
+    "code": "41120000",
+    "libelle": "Clients - groupe"
+  },
+  {
+    "code": "41140000",
+    "libelle": "Clients, État et Collectivités publiques"
+  },
+  {
+    "code": "41150000",
+    "libelle": "Clients, organismes internationaux"
+  },
+  {
+    "code": "41160000",
+    "libelle": "Clients, réserve de propriété"
+  },
+  {
+    "code": "41170000",
+    "libelle": "Client, retenues de garantie"
+  },
+  {
+    "code": "41180000",
+    "libelle": "Clients, dégrèvement de taxes sur la valeur ajoutée (TVA)"
+  },
+  {
+    "code": "41200000",
+    "libelle": "Clients, effets à recevoir en portefeuille"
+  },
+  {
+    "code": "41210000",
+    "libelle": "Clients, effets à recevoir"
+  },
+  {
+    "code": "41220000",
+    "libelle": "Clients - Groupe, effets à recevoir"
+  },
+  {
+    "code": "41240000",
+    "libelle": "État et Collectivités publiques, effets à recevoir"
+  },
+  {
+    "code": "41250000",
+    "libelle": "Organismes Internationaux, effets à recevoir"
+  },
+  {
+    "code": "41300000",
+    "libelle": "Clients, chèques, effets et autres valeurs impayées"
+  },
+  {
+    "code": "41310000",
+    "libelle": "Clients, chèques impayés"
+  },
+  {
+    "code": "41320000",
+    "libelle": "Clients, effets impayés"
+  },
+  {
+    "code": "41330000",
+    "libelle": "Clients, cartes de crédit impayées"
+  },
+  {
+    "code": "41380000",
+    "libelle": "Clients, autres valeurs impayées"
+  },
+  {
+    "code": "41400000",
+    "libelle": "Créances sur cessions courantes d’immobilisations"
+  },
+  {
+    "code": "41410000",
+    "libelle": "Créances en compte, immobilisations incorporelles"
+  },
+  {
+    "code": "41420000",
+    "libelle": "Créances en compte, immobilisations corporelles"
+  },
+  {
+    "code": "41460000",
+    "libelle": "Effets à recevoir, immobilisations incorporelles"
+  },
+  {
+    "code": "41470000",
+    "libelle": "Effets à recevoir, immobilisations corporelles"
+  },
+  {
+    "code": "41500000",
+    "libelle": "Clients, effets escomptés non échus"
+  },
+  {
+    "code": "41600000",
+    "libelle": "Créances clients litigieuses ou douteuses"
+  },
+  {
+    "code": "41610000",
+    "libelle": "Créances litigieuses"
+  },
+  {
+    "code": "41620000",
+    "libelle": "Créances douteuses"
+  },
+  {
+    "code": "41800000",
+    "libelle": "Clients, produits à recevoir"
+  },
+  {
+    "code": "41810000",
+    "libelle": "Clients, factures à établir"
+  },
+  {
+    "code": "41860000",
+    "libelle": "Clients, intérêts courus"
+  },
+  {
+    "code": "41900000",
+    "libelle": "Clients créditeurs"
+  },
+  {
+    "code": "41910000",
+    "libelle": "Clients, avances et acomptes reçus"
+  },
+  {
+    "code": "41920000",
+    "libelle": "Clients - groupe, avances et acomptes reçus"
+  },
+  {
+    "code": "41940000",
+    "libelle": "Clients, dettes pour emballages et matériels consignés"
+  },
+  {
+    "code": "41980000",
+    "libelle": "Clients, rabais, remises, ristournes et autres avoirs à accorder"
+  },
+  {
+    "code": "42000000",
+    "libelle": "Personnel"
+  },
+  {
+    "code": "42100000",
+    "libelle": "Personnel, avances et acomptes"
+  },
+  {
+    "code": "42120000",
+    "libelle": "Personnel, acomptes"
+  },
+  {
+    "code": "42130000",
+    "libelle": "Frais avancés et fournitures au personnel"
+  },
+  {
+    "code": "42200000",
+    "libelle": "Personnel, rémunérations dues"
+  },
+  {
+    "code": "42300000",
+    "libelle": "Personnel, oppositions, saisies-arrêts"
+  },
+  {
+    "code": "42310000",
+    "libelle": "Personnel, oppositions"
+  },
+  {
+    "code": "42320000",
+    "libelle": "Personnel, saisies-arrêts"
+  },
+  {
+    "code": "42330000",
+    "libelle": "Personnel, avis à tiers détenteur"
+  },
+  {
+    "code": "42400000",
+    "libelle": "Personnel, œuvres sociales internes"
+  },
+  {
+    "code": "42410000",
+    "libelle": "Assistance médicale"
+  },
+  {
+    "code": "42420000",
+    "libelle": "Allocations familiales"
+  },
+  {
+    "code": "42450000",
+    "libelle": "Organismes sociaux rattachés à l’entité"
+  },
+  {
+    "code": "42480000",
+    "libelle": "Autres œuvres sociales internes"
+  },
+  {
+    "code": "42500000",
+    "libelle": "Représentants du personnel"
+  },
+  {
+    "code": "42510000",
+    "libelle": "Délégués du personnel"
+  },
+  {
+    "code": "42520000",
+    "libelle": "Syndicats et Comités d’entreprises, d’Établissement"
+  },
+  {
+    "code": "42580000",
+    "libelle": "Autres représentants du personnel"
+  },
+  {
+    "code": "42600000",
+    "libelle": "Personnel, participation aux bénéfices et au capital"
+  },
+  {
+    "code": "42610000",
+    "libelle": "Participation aux bénéfices"
+  },
+  {
+    "code": "42640000",
+    "libelle": "Participation au capital"
+  },
+  {
+    "code": "42700000",
+    "libelle": "Personnel - dépôts"
+  },
+  {
+    "code": "42800000",
+    "libelle": "Personnel, charges à payer et produits à recevoir"
+  },
+  {
+    "code": "42810000",
+    "libelle": "Dettes provisionnées pour congés à payer"
+  },
+  {
+    "code": "42860000",
+    "libelle": "Autres charges à payer"
+  },
+  {
+    "code": "42870000",
+    "libelle": "Produits à recevoir"
+  },
+  {
+    "code": "43000000",
+    "libelle": "Organismes sociaux"
+  },
+  {
+    "code": "43100000",
+    "libelle": "Sécurité sociale"
+  },
+  {
+    "code": "43110000",
+    "libelle": "Prestations familiales"
+  },
+  {
+    "code": "43120000",
+    "libelle": "Accidents de travail"
+  },
+  {
+    "code": "43130000",
+    "libelle": "Caisse de retraite obligatoire"
+  },
+  {
+    "code": "43140000",
+    "libelle": "Caisse de retraite facultative"
+  },
+  {
+    "code": "43180000",
+    "libelle": "Autres cotisations sociales"
+  },
+  {
+    "code": "43200000",
+    "libelle": "Caisses de retraite complémentaire"
+  },
+  {
+    "code": "43300000",
+    "libelle": "Autres organismes sociaux"
+  },
+  {
+    "code": "43310000",
+    "libelle": "Mutuelle"
+  },
+  {
+    "code": "43320000",
+    "libelle": "Assurances retraite"
+  },
+  {
+    "code": "43330000",
+    "libelle": "Assurances et organismes de santé"
+  },
+  {
+    "code": "43800000",
+    "libelle": "Organismes sociaux, charges à payer et produits à recevoir"
+  },
+  {
+    "code": "43810000",
+    "libelle": "Charges sociales sur gratifications à payer"
+  },
+  {
+    "code": "43820000",
+    "libelle": "Charges sociales sur congés à payer"
+  },
+  {
+    "code": "43860000",
+    "libelle": "Autres charges à payer"
+  },
+  {
+    "code": "43870000",
+    "libelle": "Produits à recevoir"
+  },
+  {
+    "code": "44000000",
+    "libelle": "État et collectivités publiques"
+  },
+  {
+    "code": "44100000",
+    "libelle": "État, impôt sur les bénéfices"
+  },
+  {
+    "code": "44200000",
+    "libelle": "État, autres impôts et taxes"
+  },
+  {
+    "code": "44210000",
+    "libelle": "Impôts et taxes d’État"
+  },
+  {
+    "code": "44220000",
+    "libelle": "Impôts et taxes pour les collectivités publiques"
+  },
+  {
+    "code": "44230000",
+    "libelle": "Impôts et taxes recouvrables sur des obligataires"
+  },
+  {
+    "code": "44240000",
+    "libelle": "Impôts et taxes recouvrables sur des associés"
+  },
+  {
+    "code": "44260000",
+    "libelle": "Droits de douane"
+  },
+  {
+    "code": "44280000",
+    "libelle": "Autres impôts et taxes"
+  },
+  {
+    "code": "44300000",
+    "libelle": "État, TVA facturée"
+  },
+  {
+    "code": "44310000",
+    "libelle": "TVA facturée sur ventes"
+  },
+  {
+    "code": "44320000",
+    "libelle": "TVA facturée sur prestations de services"
+  },
+  {
+    "code": "44330000",
+    "libelle": "TVA facturée sur travaux"
+  },
+  {
+    "code": "44340000",
+    "libelle": "TVA facturée sur production livrée à soi-même"
+  },
+  {
+    "code": "44350000",
+    "libelle": "TVA sur factures à établir"
+  },
+  {
+    "code": "44400000",
+    "libelle": "État, TVA due ou crédit de TVA"
+  },
+  {
+    "code": "44410000",
+    "libelle": "État, TVA due"
+  },
+  {
+    "code": "44490000",
+    "libelle": "État, crédit de TVA à reporter"
+  },
+  {
+    "code": "44500000",
+    "libelle": "État, TVA récupérable"
+  },
+  {
+    "code": "44510000",
+    "libelle": "TVA récupérable sur immobilisations"
+  },
+  {
+    "code": "44520000",
+    "libelle": "TVA récupérable sur achats"
+  },
+  {
+    "code": "44530000",
+    "libelle": "TVA récupérable sur transport"
+  },
+  {
+    "code": "44540000",
+    "libelle": "TVA récupérable sur services extérieurs et autres charges"
+  },
+  {
+    "code": "44550000",
+    "libelle": "TVA récupérable sur factures non parvenues"
+  },
+  {
+    "code": "44560000",
+    "libelle": "TVA transférée par d’autres entités"
+  },
+  {
+    "code": "44600000",
+    "libelle": "État, autres taxes sur le chiffre d’affaires"
+  },
+  {
+    "code": "44700000",
+    "libelle": "État, impôts retenus à la source"
+  },
+  {
+    "code": "44710000",
+    "libelle": "Impôt Général sur le revenu"
+  },
+  {
+    "code": "44720000",
+    "libelle": "Impôts sur salaires"
+  },
+  {
+    "code": "44730000",
+    "libelle": "Contribution nationale"
+  },
+  {
+    "code": "44740000",
+    "libelle": "Contribution nationale de solidarité"
+  },
+  {
+    "code": "44780000",
+    "libelle": "Autres impôts et contributions"
+  },
+  {
+    "code": "44800000",
+    "libelle": "État, charges à payer et produits à recevoir"
+  },
+  {
+    "code": "44860000",
+    "libelle": "Charges à payer"
+  },
+  {
+    "code": "44870000",
+    "libelle": "Produits à recevoir"
+  },
+  {
+    "code": "44900000",
+    "libelle": "État, créances et dettes diverses"
+  },
+  {
+    "code": "44910000",
+    "libelle": "État, obligations cautionnées"
+  },
+  {
+    "code": "44920000",
+    "libelle": "État, avances et acomptes versés sur impôts"
+  },
+  {
+    "code": "44930000",
+    "libelle": "État, fonds de dotation à recevoir"
+  },
+  {
+    "code": "44940000",
+    "libelle": "État, subventions investissement à recevoir"
+  },
+  {
+    "code": "44950000",
+    "libelle": "État, subventions d’exploitation à recevoir"
+  },
+  {
+    "code": "44960000",
+    "libelle": "État, subventions d’équilibre à recevoir"
+  },
+  {
+    "code": "44970000",
+    "libelle": "État, avances sur subventions"
+  },
+  {
+    "code": "44990000",
+    "libelle": "État, fonds réglementés provisionnés"
+  },
+  {
+    "code": "45000000",
+    "libelle": "Organismes internationaux"
+  },
+  {
+    "code": "45100000",
+    "libelle": "Opérations avec les organismes africains"
+  },
+  {
+    "code": "45200000",
+    "libelle": "Opérations avec les autres organismes internationaux"
+  },
+  {
+    "code": "45800000",
+    "libelle": "Organismes internationaux, fonds de dotation et subventions à recevoir"
+  },
+  {
+    "code": "45810000",
+    "libelle": "Organismes internationaux, fonds de dotation à recevoir"
+  },
+  {
+    "code": "45820000",
+    "libelle": "Organismes internationaux, subventions à recevoir"
+  },
+  {
+    "code": "46000000",
+    "libelle": "Apporteurs, associés et groupe"
+  },
+  {
+    "code": "46100000",
+    "libelle": "Apporteurs, opérations sur le capital"
+  },
+  {
+    "code": "46180000",
+    "libelle": "Apporteurs, titres à échanger"
+  },
+  {
+    "code": "46190000",
+    "libelle": "Apporteurs, capital à rembourser"
+  },
+  {
+    "code": "46200000",
+    "libelle": "Associés [2], comptes courants"
+  },
+  {
+    "code": "46210000",
+    "libelle": "Principal"
+  },
+  {
+    "code": "46260000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "46300000",
+    "libelle": "Associés [2], opérations faites en commun et GIE"
+  },
+  {
+    "code": "46310000",
+    "libelle": "Opérations courantes"
+  },
+  {
+    "code": "46360000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "46500000",
+    "libelle": "Associés [2], dividendes à payer"
+  },
+  {
+    "code": "46600000",
+    "libelle": "Groupe, comptes courants"
+  },
+  {
+    "code": "46700000",
+    "libelle": "Apporteurs, restant dû sur capital appelé"
+  },
+  {
+    "code": "47000000",
+    "libelle": "Débiteurs et créanciers divers"
+  },
+  {
+    "code": "47100000",
+    "libelle": "Débiteurs et créanciers divers"
+  },
+  {
+    "code": "47110000",
+    "libelle": "Débiteurs divers"
+  },
+  {
+    "code": "47120000",
+    "libelle": "Créditeurs divers"
+  },
+  {
+    "code": "47130000",
+    "libelle": "Obligataires"
+  },
+  {
+    "code": "47150000",
+    "libelle": "Rémunérations d’administrateurs"
+  },
+  {
+    "code": "47160000",
+    "libelle": "Compte d’affacturage"
+  },
+  {
+    "code": "47170000",
+    "libelle": "Débiteurs divers - retenues de garantie"
+  },
+  {
+    "code": "47180000",
+    "libelle": "Apport, compte de fusion et opérations assimilées"
+  },
+  {
+    "code": "47190000",
+    "libelle": "Bons de souscription d’actions et d’obligations"
+  },
+  {
+    "code": "47200000",
+    "libelle": "Créances et dettes sur titres de placement"
+  },
+  {
+    "code": "47210000",
+    "libelle": "Créances sur cessions de titres de placement"
+  },
+  {
+    "code": "47260000",
+    "libelle": "Versements restant à effectuer sur titres de placement non libérés"
+  },
+  {
+    "code": "47300000",
+    "libelle": "Intermédiaires - Opérations faites pour compte de tiers"
+  },
+  {
+    "code": "47310000",
+    "libelle": "Mandants"
+  },
+  {
+    "code": "47320000",
+    "libelle": "Mandataires"
+  },
+  {
+    "code": "47330000",
+    "libelle": "Commettant"
+  },
+  {
+    "code": "47340000",
+    "libelle": "Commissionnaires"
+  },
+  {
+    "code": "47390000",
+    "libelle": "État, Collectivités publiques, fonds global d’allocation"
+  },
+  {
+    "code": "47400000",
+    "libelle": "Compte de répartition périodique des charges et des produits"
+  },
+  {
+    "code": "47460000",
+    "libelle": "Compte de répartition périodique des charges"
+  },
+  {
+    "code": "47470000",
+    "libelle": "Compte de répartition périodique des produits"
+  },
+  {
+    "code": "47500000",
+    "libelle": "Compte transitoire, ajustement spécial lié à la révision du SYSCOHADA"
+  },
+  {
+    "code": "47510000",
+    "libelle": "Compte actif"
+  },
+  {
+    "code": "47520000",
+    "libelle": "Compte passif"
+  },
+  {
+    "code": "47600000",
+    "libelle": "Charges constatées d’avance"
+  },
+  {
+    "code": "47700000",
+    "libelle": "Produits constatés d’avance"
+  },
+  {
+    "code": "47800000",
+    "libelle": "Écarts de conversion - actif"
+  },
+  {
+    "code": "47810000",
+    "libelle": "Diminution des créances d’exploitation"
+  },
+  {
+    "code": "47820000",
+    "libelle": "Diminution des créances financières"
+  },
+  {
+    "code": "47830000",
+    "libelle": "Augmentation des dettes d’exploitation"
+  },
+  {
+    "code": "47840000",
+    "libelle": "Augmentation des dettes financières"
+  },
+  {
+    "code": "47860000",
+    "libelle": "Différences d’évaluation sur instruments de trésorerie"
+  },
+  {
+    "code": "47880000",
+    "libelle": "Différences compensées par couverture de change"
+  },
+  {
+    "code": "47900000",
+    "libelle": "Écarts de conversion - passif"
+  },
+  {
+    "code": "47910000",
+    "libelle": "Augmentation des créances d’exploitation"
+  },
+  {
+    "code": "47920000",
+    "libelle": "Augmentation des créances financières"
+  },
+  {
+    "code": "47930000",
+    "libelle": "Diminution des dettes d’exploitation"
+  },
+  {
+    "code": "47940000",
+    "libelle": "Diminution des dettes financières"
+  },
+  {
+    "code": "47970000",
+    "libelle": "Différences d’évaluation sur instruments de trésorerie"
+  },
+  {
+    "code": "48000000",
+    "libelle": "Créances et dettes hors activités ordinaires (HAO)"
+  },
+  {
+    "code": "48100000",
+    "libelle": "Fournisseurs d’investissements"
+  },
+  {
+    "code": "48110000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "48120000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "48130000",
+    "libelle": "Versements restant à effectuer sur titres de participation et titres immobilisés non libérés"
+  },
+  {
+    "code": "48160000",
+    "libelle": "Réserve de propriété [3]"
+  },
+  {
+    "code": "48170000",
+    "libelle": "Retenues de garantie [3]"
+  },
+  {
+    "code": "48180000",
+    "libelle": "Factures non parvenues [3]"
+  },
+  {
+    "code": "48200000",
+    "libelle": "Fournisseurs d’investissements, effets à payer"
+  },
+  {
+    "code": "48210000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "48220000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "48400000",
+    "libelle": "Autres dettes hors activités ordinaires (HAO)"
+  },
+  {
+    "code": "48500000",
+    "libelle": "Créances sur cessions d’immobilisations"
+  },
+  {
+    "code": "48510000",
+    "libelle": "En compte, immobilisations incorporelles"
+  },
+  {
+    "code": "48520000",
+    "libelle": "En compte, immobilisations corporelles"
+  },
+  {
+    "code": "48530000",
+    "libelle": "Effets à recevoir, immobilisations incorporelles"
+  },
+  {
+    "code": "48540000",
+    "libelle": "Effets à recevoir, immobilisations corporelles"
+  },
+  {
+    "code": "48550000",
+    "libelle": "Effets escomptés non échus"
+  },
+  {
+    "code": "48570000",
+    "libelle": "Retenues de garantie"
+  },
+  {
+    "code": "48580000",
+    "libelle": "Factures à établir"
+  },
+  {
+    "code": "48800000",
+    "libelle": "Autres créances hors activités ordinaires (HAO)"
+  },
+  {
+    "code": "49000000",
+    "libelle": "Dépréciations des comptes fournisseurs"
+  },
+  {
+    "code": "49100000",
+    "libelle": "Dépréciations des comptes clients"
+  },
+  {
+    "code": "49110000",
+    "libelle": "Créances litigieuses"
+  },
+  {
+    "code": "49120000",
+    "libelle": "Créances douteuses"
+  },
+  {
+    "code": "49200000",
+    "libelle": "Dépréciations des comptes personnel"
+  },
+  {
+    "code": "49300000",
+    "libelle": "Dépréciations des comptes organismes sociaux"
+  },
+  {
+    "code": "49400000",
+    "libelle": "Dépréciations des comptes État et collectivités publiques"
+  },
+  {
+    "code": "49500000",
+    "libelle": "Dépréciations des comptes organismes internationaux"
+  },
+  {
+    "code": "49600000",
+    "libelle": "Dépréciations des comptes apporteurs, associés et groupe"
+  },
+  {
+    "code": "49620000",
+    "libelle": "Associés, comptes courants"
+  },
+  {
+    "code": "49630000",
+    "libelle": "Associés, opérations faites en commun"
+  },
+  {
+    "code": "49660000",
+    "libelle": "Groupe, comptes courants"
+  },
+  {
+    "code": "49700000",
+    "libelle": "Dépréciations des comptes débiteurs divers"
+  },
+  {
+    "code": "49800000",
+    "libelle": "Dépréciations des comptes de créances HAO"
+  },
+  {
+    "code": "49850000",
+    "libelle": "Créances sur cessions d’immobilisations"
+  },
+  {
+    "code": "49860000",
+    "libelle": "Créances sur cessions de titres de placement"
+  },
+  {
+    "code": "49880000",
+    "libelle": "Autres créances HAO"
+  },
+  {
+    "code": "49900000",
+    "libelle": "Provisions pour risques à court terme"
+  },
+  {
+    "code": "49910000",
+    "libelle": "Sur opérations d’exploitation"
+  },
+  {
+    "code": "49970000",
+    "libelle": "Sur opérations financières"
+  },
+  {
+    "code": "49980000",
+    "libelle": "Sur opérations HAO"
+  },
+  {
+    "code": "50000000",
+    "libelle": "Titres de placement"
+  },
+  {
+    "code": "50100000",
+    "libelle": "Titres du trésor et bons de caisse à court terme"
+  },
+  {
+    "code": "50110000",
+    "libelle": "Titres du Trésor à court terme"
+  },
+  {
+    "code": "50120000",
+    "libelle": "Titres d’organismes financiers"
+  },
+  {
+    "code": "50130000",
+    "libelle": "Bons de caisse à court terme"
+  },
+  {
+    "code": "50160000",
+    "libelle": "Frais d’acquisition des titres de trésor et bons de caisse"
+  },
+  {
+    "code": "50200000",
+    "libelle": "Actions"
+  },
+  {
+    "code": "50210000",
+    "libelle": "Actions ou parts propres"
+  },
+  {
+    "code": "50220000",
+    "libelle": "Actions cotées"
+  },
+  {
+    "code": "50230000",
+    "libelle": "Actions non cotées"
+  },
+  {
+    "code": "50240000",
+    "libelle": "Actions démembrées (certificats d’investissement, droits de vote)"
+  },
+  {
+    "code": "50250000",
+    "libelle": "Autres actions"
+  },
+  {
+    "code": "50260000",
+    "libelle": "Frais d’acquisition des actions"
+  },
+  {
+    "code": "50300000",
+    "libelle": "Obligations"
+  },
+  {
+    "code": "50310000",
+    "libelle": "Obligations émises par la société et rachetées par elle"
+  },
+  {
+    "code": "50320000",
+    "libelle": "Obligations cotées"
+  },
+  {
+    "code": "50330000",
+    "libelle": "Obligations non cotées"
+  },
+  {
+    "code": "50350000",
+    "libelle": "Autres obligations"
+  },
+  {
+    "code": "50360000",
+    "libelle": "Frais d’acquisition des obligations"
+  },
+  {
+    "code": "50400000",
+    "libelle": "Bons de souscription"
+  },
+  {
+    "code": "50420000",
+    "libelle": "Bons de souscription d’actions"
+  },
+  {
+    "code": "50430000",
+    "libelle": "Bons de souscription d’obligations"
+  },
+  {
+    "code": "50500000",
+    "libelle": "Titres négociables hors région"
+  },
+  {
+    "code": "50600000",
+    "libelle": "Intérêts courus"
+  },
+  {
+    "code": "50610000",
+    "libelle": "Titres du Trésor et bons de caisse à court terme"
+  },
+  {
+    "code": "50620000",
+    "libelle": "Actions"
+  },
+  {
+    "code": "50630000",
+    "libelle": "Obligations"
+  },
+  {
+    "code": "50800000",
+    "libelle": "Autres titres de placement et créances assimilées"
+  },
+  {
+    "code": "51000000",
+    "libelle": "Valeurs à encaisser"
+  },
+  {
+    "code": "51100000",
+    "libelle": "Effets à encaisser"
+  },
+  {
+    "code": "51200000",
+    "libelle": "Effets à l’encaissement"
+  },
+  {
+    "code": "51300000",
+    "libelle": "Chèques à encaisser"
+  },
+  {
+    "code": "51400000",
+    "libelle": "Chèques à l’encaissement"
+  },
+  {
+    "code": "51500000",
+    "libelle": "Cartes de crédit à encaisser"
+  },
+  {
+    "code": "51800000",
+    "libelle": "Autres valeurs à l’encaissement"
+  },
+  {
+    "code": "51810000",
+    "libelle": "Warrants"
+  },
+  {
+    "code": "51820000",
+    "libelle": "Billets de fonds"
+  },
+  {
+    "code": "51850000",
+    "libelle": "Chèques de voyage"
+  },
+  {
+    "code": "51860000",
+    "libelle": "Coupons échus"
+  },
+  {
+    "code": "51870000",
+    "libelle": "Intérêts échus des obligations"
+  },
+  {
+    "code": "52000000",
+    "libelle": "Banques"
+  },
+  {
+    "code": "52400000",
+    "libelle": "Banques hors zone monétaire"
+  },
+  {
+    "code": "52500000",
+    "libelle": "Banques dépôt à terme"
+  },
+  {
+    "code": "52600000",
+    "libelle": "Banques, intérêts courus"
+  },
+  {
+    "code": "52610000",
+    "libelle": "Banque, intérêts courus, charges à payer"
+  },
+  {
+    "code": "52670000",
+    "libelle": "Banque, intérêts courus, produits à recevoir"
+  },
+  {
+    "code": "53000000",
+    "libelle": "Établissements financiers et assimilés"
+  },
+  {
+    "code": "53100000",
+    "libelle": "Chèques postaux"
+  },
+  {
+    "code": "53200000",
+    "libelle": "Trésor"
+  },
+  {
+    "code": "53300000",
+    "libelle": "Sociétés de gestion et d’intermédiation (SGI)"
+  },
+  {
+    "code": "53600000",
+    "libelle": "Établissements financiers, intérêts courus"
+  },
+  {
+    "code": "53800000",
+    "libelle": "Autres organismes financiers"
+  },
+  {
+    "code": "54000000",
+    "libelle": "Instruments de trésorerie"
+  },
+  {
+    "code": "54100000",
+    "libelle": "Options de taux d’intérêt"
+  },
+  {
+    "code": "54200000",
+    "libelle": "Options de taux de change"
+  },
+  {
+    "code": "54300000",
+    "libelle": "Options de taux boursiers"
+  },
+  {
+    "code": "54400000",
+    "libelle": "Instruments de marchés à terme"
+  },
+  {
+    "code": "54500000",
+    "libelle": "Avoirs d’or et autres métaux précieux [4]"
+  },
+  {
+    "code": "55000000",
+    "libelle": "Instruments de monnaie électronique"
+  },
+  {
+    "code": "55100000",
+    "libelle": "Monnaie électronique - carte carburant"
+  },
+  {
+    "code": "55200000",
+    "libelle": "Monnaie électronique - téléphone portable"
+  },
+  {
+    "code": "55300000",
+    "libelle": "Monnaie électronique - carte péage"
+  },
+  {
+    "code": "55400000",
+    "libelle": "Porte-monnaie électronique"
+  },
+  {
+    "code": "55800000",
+    "libelle": "Autres instruments de monnaies électroniques"
+  },
+  {
+    "code": "56000000",
+    "libelle": "Banques, crédits de trésorerie et d’escompte"
+  },
+  {
+    "code": "56100000",
+    "libelle": "Crédits de trésorerie"
+  },
+  {
+    "code": "56400000",
+    "libelle": "Escompte de crédits de campagne"
+  },
+  {
+    "code": "56500000",
+    "libelle": "Escompte de crédits ordinaires"
+  },
+  {
+    "code": "56600000",
+    "libelle": "Banques, crédits de trésorerie, intérêts courus"
+  },
+  {
+    "code": "57000000",
+    "libelle": "Caisse"
+  },
+  {
+    "code": "57100000",
+    "libelle": "Caisse siège social"
+  },
+  {
+    "code": "57110000",
+    "libelle": "Caisse en monnaie nationale"
+  },
+  {
+    "code": "57120000",
+    "libelle": "Caisse en devises"
+  },
+  {
+    "code": "57200000",
+    "libelle": "Caisse succursale A"
+  },
+  {
+    "code": "57210000",
+    "libelle": "En monnaie nationale"
+  },
+  {
+    "code": "57220000",
+    "libelle": "En devises"
+  },
+  {
+    "code": "57300000",
+    "libelle": "Caisse succursale B"
+  },
+  {
+    "code": "57310000",
+    "libelle": "En monnaie nationale"
+  },
+  {
+    "code": "57320000",
+    "libelle": "En devises"
+  },
+  {
+    "code": "58000000",
+    "libelle": "Régies d’avances, accréditifs et virements internes"
+  },
+  {
+    "code": "58100000",
+    "libelle": "Régies d’avance"
+  },
+  {
+    "code": "58200000",
+    "libelle": "Accréditifs"
+  },
+  {
+    "code": "58500000",
+    "libelle": "Virements de fonds"
+  },
+  {
+    "code": "58800000",
+    "libelle": "Autres virements internes"
+  },
+  {
+    "code": "59000000",
+    "libelle": "Dépréciations et provisions pour risque à court terme"
+  },
+  {
+    "code": "60000000",
+    "libelle": "Achats et variations de stocks"
+  },
+  {
+    "code": "60100000",
+    "libelle": "Achats de marchandises"
+  },
+  {
+    "code": "60110000",
+    "libelle": "Dans la Région [5]"
+  },
+  {
+    "code": "60120000",
+    "libelle": "Hors Région [5]"
+  },
+  {
+    "code": "60130000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "60140000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "60150000",
+    "libelle": "Frais sur achats [6]"
+  },
+  {
+    "code": "60190000",
+    "libelle": "Rabais, remises et ristournes obtenus (non ventilés)"
+  },
+  {
+    "code": "60200000",
+    "libelle": "Achats de matières premières et fournitures liées"
+  },
+  {
+    "code": "60210000",
+    "libelle": "Dans la Région [5]"
+  },
+  {
+    "code": "60220000",
+    "libelle": "Hors Région [5]"
+  },
+  {
+    "code": "60230000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "60240000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "60250000",
+    "libelle": "Frais sur achats [6]"
+  },
+  {
+    "code": "60290000",
+    "libelle": "Rabais, remises et ristournes obtenus (non ventilés)"
+  },
+  {
+    "code": "60300000",
+    "libelle": "Variations des stocks de biens achetés"
+  },
+  {
+    "code": "60310000",
+    "libelle": "Variations des stocks de marchandises"
+  },
+  {
+    "code": "60320000",
+    "libelle": "Variations des stocks de matières premières et fournitures liées"
+  },
+  {
+    "code": "60330000",
+    "libelle": "Variations des stocks d’autres approvisionnements"
+  },
+  {
+    "code": "60400000",
+    "libelle": "Achats stockés de matières et fournitures consommables"
+  },
+  {
+    "code": "60410000",
+    "libelle": "Matières consommables"
+  },
+  {
+    "code": "60420000",
+    "libelle": "Matières combustibles"
+  },
+  {
+    "code": "60430000",
+    "libelle": "Produits d’entretien"
+  },
+  {
+    "code": "60440000",
+    "libelle": "Fournitures d’atelier et d’usine"
+  },
+  {
+    "code": "60450000",
+    "libelle": "Frais sur achat [6]"
+  },
+  {
+    "code": "60460000",
+    "libelle": "Fournitures de magasin"
+  },
+  {
+    "code": "60470000",
+    "libelle": "Fournitures de bureau"
+  },
+  {
+    "code": "60490000",
+    "libelle": "Rabais, remises et ristournes obtenus (non ventilés)"
+  },
+  {
+    "code": "60500000",
+    "libelle": "Autres achats"
+  },
+  {
+    "code": "60510000",
+    "libelle": "Fournitures non stockables - Eau"
+  },
+  {
+    "code": "60520000",
+    "libelle": "Fournitures non stockables - Électricité"
+  },
+  {
+    "code": "60530000",
+    "libelle": "Fournitures non stockables - Autres énergies"
+  },
+  {
+    "code": "60540000",
+    "libelle": "Fournitures d’entretien non stockables"
+  },
+  {
+    "code": "60550000",
+    "libelle": "Fournitures de bureau non stockables"
+  },
+  {
+    "code": "60560000",
+    "libelle": "Achats de petit matériel et outillage"
+  },
+  {
+    "code": "60570000",
+    "libelle": "Achats d’études et prestations de services"
+  },
+  {
+    "code": "60580000",
+    "libelle": "Achats de travaux, matériels et équipements"
+  },
+  {
+    "code": "60590000",
+    "libelle": "Rabais, remises et ristournes obtenus (non ventilés)"
+  },
+  {
+    "code": "60800000",
+    "libelle": "Achats d’emballages"
+  },
+  {
+    "code": "60830000",
+    "libelle": "Emballages à usage mixte"
+  },
+  {
+    "code": "60850000",
+    "libelle": "Frais sur achats [6]"
+  },
+  {
+    "code": "60890000",
+    "libelle": "Rabais, remises et ristournes obtenus (non ventilés)"
+  },
+  {
+    "code": "61000000",
+    "libelle": "Transports"
+  },
+  {
+    "code": "61200000",
+    "libelle": "Transports sur ventes"
+  },
+  {
+    "code": "61300000",
+    "libelle": "Transports pour le compte de tiers"
+  },
+  {
+    "code": "61400000",
+    "libelle": "Transports du personnel"
+  },
+  {
+    "code": "61600000",
+    "libelle": "Transports de plis"
+  },
+  {
+    "code": "61800000",
+    "libelle": "Autres frais de transport"
+  },
+  {
+    "code": "61810000",
+    "libelle": "Voyages et déplacements"
+  },
+  {
+    "code": "61820000",
+    "libelle": "Transports entre établissements ou chantiers"
+  },
+  {
+    "code": "61830000",
+    "libelle": "Transports administratifs"
+  },
+  {
+    "code": "62000000",
+    "libelle": "Services extérieurs"
+  },
+  {
+    "code": "62100000",
+    "libelle": "Sous-traitance générale"
+  },
+  {
+    "code": "62200000",
+    "libelle": "Locations, charges locatives"
+  },
+  {
+    "code": "62210000",
+    "libelle": "Locations de terrains"
+  },
+  {
+    "code": "62220000",
+    "libelle": "Locations de bâtiments"
+  },
+  {
+    "code": "62230000",
+    "libelle": "Locations de matériels et outillages"
+  },
+  {
+    "code": "62240000",
+    "libelle": "Malis sur emballages"
+  },
+  {
+    "code": "62250000",
+    "libelle": "Locations d’emballages"
+  },
+  {
+    "code": "62260000",
+    "libelle": "Fermages et loyers du foncier"
+  },
+  {
+    "code": "62280000",
+    "libelle": "Locations et charges locatives diverses"
+  },
+  {
+    "code": "62300000",
+    "libelle": "Redevances de location acquisition"
+  },
+  {
+    "code": "62320000",
+    "libelle": "Crédit-bail immobilier"
+  },
+  {
+    "code": "62330000",
+    "libelle": "Crédit-bail mobilier"
+  },
+  {
+    "code": "62340000",
+    "libelle": "Location-vente"
+  },
+  {
+    "code": "62380000",
+    "libelle": "Autres contrats de location acquisition"
+  },
+  {
+    "code": "62400000",
+    "libelle": "Entretien, réparations, remise en état et maintenance"
+  },
+  {
+    "code": "62410000",
+    "libelle": "Entretien et réparations des biens immobiliers"
+  },
+  {
+    "code": "62420000",
+    "libelle": "Entretien et réparations des biens mobiliers"
+  },
+  {
+    "code": "62430000",
+    "libelle": "Maintenance"
+  },
+  {
+    "code": "62440000",
+    "libelle": "Charges de démantèlement et remise en état"
+  },
+  {
+    "code": "62480000",
+    "libelle": "Autres entretiens et réparations"
+  },
+  {
+    "code": "62500000",
+    "libelle": "Primes d’assurance"
+  },
+  {
+    "code": "62510000",
+    "libelle": "Assurances multirisques"
+  },
+  {
+    "code": "62520000",
+    "libelle": "Assurances matériel de transport"
+  },
+  {
+    "code": "62530000",
+    "libelle": "Assurances risques d’exploitation"
+  },
+  {
+    "code": "62540000",
+    "libelle": "Assurances responsabilité du producteur"
+  },
+  {
+    "code": "62550000",
+    "libelle": "Assurances insolvabilité clients"
+  },
+  {
+    "code": "62570000",
+    "libelle": "Assurances transport sur ventes"
+  },
+  {
+    "code": "62580000",
+    "libelle": "Autres primes d’assurances"
+  },
+  {
+    "code": "62600000",
+    "libelle": "Études, recherches et documentation"
+  },
+  {
+    "code": "62610000",
+    "libelle": "Études et recherches"
+  },
+  {
+    "code": "62650000",
+    "libelle": "Documentation générale"
+  },
+  {
+    "code": "62660000",
+    "libelle": "Documentation technique"
+  },
+  {
+    "code": "62700000",
+    "libelle": "Publicité, publications, relations publiques"
+  },
+  {
+    "code": "62750000",
+    "libelle": "Publications"
+  },
+  {
+    "code": "62760000",
+    "libelle": "Cadeaux à la clientèle"
+  },
+  {
+    "code": "62770000",
+    "libelle": "Frais de colloques, séminaires, conférences"
+  },
+  {
+    "code": "62780000",
+    "libelle": "Autres charges de publicité et relations publiques"
+  },
+  {
+    "code": "62800000",
+    "libelle": "Frais de télécommunications"
+  },
+  {
+    "code": "62810000",
+    "libelle": "Frais de téléphone"
+  },
+  {
+    "code": "62820000",
+    "libelle": "Frais de télex"
+  },
+  {
+    "code": "62830000",
+    "libelle": "Frais de télécopie"
+  },
+  {
+    "code": "62880000",
+    "libelle": "Autres frais de télécommunications"
+  },
+  {
+    "code": "63000000",
+    "libelle": "Autres services extérieurs"
+  },
+  {
+    "code": "63100000",
+    "libelle": "Frais bancaires"
+  },
+  {
+    "code": "63110000",
+    "libelle": "Frais sur titres (vente, garde)"
+  },
+  {
+    "code": "63120000",
+    "libelle": "Frais sur effets"
+  },
+  {
+    "code": "63130000",
+    "libelle": "Location de coffres"
+  },
+  {
+    "code": "63140000",
+    "libelle": "Commissions d’affacturage"
+  },
+  {
+    "code": "63150000",
+    "libelle": "Commissions sur cartes de crédit"
+  },
+  {
+    "code": "63160000",
+    "libelle": "Frais d’émission d’emprunts"
+  },
+  {
+    "code": "63170000",
+    "libelle": "Frais sur instruments monnaie électronique"
+  },
+  {
+    "code": "63180000",
+    "libelle": "Autres frais bancaires"
+  },
+  {
+    "code": "63200000",
+    "libelle": "Rémunérations d’intermédiaires et de conseils"
+  },
+  {
+    "code": "63220000",
+    "libelle": "Commissions et courtages sur ventes"
+  },
+  {
+    "code": "63240000",
+    "libelle": "Honoraires des professions réglementées"
+  },
+  {
+    "code": "63250000",
+    "libelle": "Frais d’actes et de contentieux"
+  },
+  {
+    "code": "63260000",
+    "libelle": "Rémunérations d’affacturage"
+  },
+  {
+    "code": "63270000",
+    "libelle": "Rémunérations des autres prestataires de services"
+  },
+  {
+    "code": "63280000",
+    "libelle": "Divers frais"
+  },
+  {
+    "code": "63300000",
+    "libelle": "Frais de formation du personnel"
+  },
+  {
+    "code": "63400000",
+    "libelle": "Redevances pour brevets, licences, logiciels, concessions et droits et valeurs similaires"
+  },
+  {
+    "code": "63420000",
+    "libelle": "Redevances pour brevets, licences"
+  },
+  {
+    "code": "63430000",
+    "libelle": "Redevances pour logiciels"
+  },
+  {
+    "code": "63440000",
+    "libelle": "Redevances pour marques"
+  },
+  {
+    "code": "63450000",
+    "libelle": "Redevances pour sites internet"
+  },
+  {
+    "code": "63460000",
+    "libelle": "Redevances pour concessions, droits et valeurs similaires"
+  },
+  {
+    "code": "63500000",
+    "libelle": "Cotisations"
+  },
+  {
+    "code": "63510000",
+    "libelle": "Cotisations"
+  },
+  {
+    "code": "63580000",
+    "libelle": "Concours divers"
+  },
+  {
+    "code": "63700000",
+    "libelle": "Rémunérations de personnel extérieur à l’entité"
+  },
+  {
+    "code": "63710000",
+    "libelle": "Personnel intérimaire"
+  },
+  {
+    "code": "63720000",
+    "libelle": "Personnel détaché ou prêté à l’entité"
+  },
+  {
+    "code": "63800000",
+    "libelle": "Autres charges externes"
+  },
+  {
+    "code": "63810000",
+    "libelle": "Frais de recrutement du personnel"
+  },
+  {
+    "code": "63820000",
+    "libelle": "Frais de déménagement"
+  },
+  {
+    "code": "63830000",
+    "libelle": "Réceptions"
+  },
+  {
+    "code": "63840000",
+    "libelle": "Missions"
+  },
+  {
+    "code": "63850000",
+    "libelle": "Charges de copropriété"
+  },
+  {
+    "code": "64000000",
+    "libelle": "Impôts et taxes"
+  },
+  {
+    "code": "64100000",
+    "libelle": "Impôts et taxes directs"
+  },
+  {
+    "code": "64110000",
+    "libelle": "Impôts fonciers et taxes annexes"
+  },
+  {
+    "code": "64120000",
+    "libelle": "Patentes, licences et taxes annexes"
+  },
+  {
+    "code": "64130000",
+    "libelle": "Taxes sur appointements et salaires"
+  },
+  {
+    "code": "64140000",
+    "libelle": "Taxes d’apprentissage"
+  },
+  {
+    "code": "64150000",
+    "libelle": "Formation professionnelle continue"
+  },
+  {
+    "code": "64180000",
+    "libelle": "Autres impôts et taxes directs"
+  },
+  {
+    "code": "64500000",
+    "libelle": "Impôts et taxes indirects"
+  },
+  {
+    "code": "64600000",
+    "libelle": "Droits d’enregistrement"
+  },
+  {
+    "code": "64610000",
+    "libelle": "Droits de mutation"
+  },
+  {
+    "code": "64620000",
+    "libelle": "Droits de timbre"
+  },
+  {
+    "code": "64630000",
+    "libelle": "Taxes sur les véhicules de société"
+  },
+  {
+    "code": "64640000",
+    "libelle": "Vignettes"
+  },
+  {
+    "code": "64680000",
+    "libelle": "Autres droits"
+  },
+  {
+    "code": "64700000",
+    "libelle": "Pénalités, amendes fiscales"
+  },
+  {
+    "code": "64710000",
+    "libelle": "Pénalités d’assiette, impôts directs"
+  },
+  {
+    "code": "64720000",
+    "libelle": "Pénalités d’assiette, impôts indirects"
+  },
+  {
+    "code": "64730000",
+    "libelle": "Pénalités de recouvrement, impôts directs"
+  },
+  {
+    "code": "64740000",
+    "libelle": "Pénalités de recouvrement, impôts indirects"
+  },
+  {
+    "code": "64780000",
+    "libelle": "Autres pénalités et amendes fiscales"
+  },
+  {
+    "code": "64800000",
+    "libelle": "Autres impôts et taxes"
+  },
+  {
+    "code": "65000000",
+    "libelle": "Autres charges"
+  },
+  {
+    "code": "65100000",
+    "libelle": "Pertes sur créances clients et autres débiteurs"
+  },
+  {
+    "code": "65110000",
+    "libelle": "Clients"
+  },
+  {
+    "code": "65150000",
+    "libelle": "Autres débiteurs"
+  },
+  {
+    "code": "65200000",
+    "libelle": "Quote-part de résultat sur opérations faites en commun"
+  },
+  {
+    "code": "65210000",
+    "libelle": "Quote-part transférée de bénéfices (comptabilité du gérant)"
+  },
+  {
+    "code": "65250000",
+    "libelle": "Pertes imputées par transfert (comptabilité des associés non gérants)"
+  },
+  {
+    "code": "65400000",
+    "libelle": "Valeurs comptables des cessions courantes d’immobilisations"
+  },
+  {
+    "code": "65410000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "65420000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "65600000",
+    "libelle": "Perte de change sur créances et dettes commerciale"
+  },
+  {
+    "code": "65700000",
+    "libelle": "Pénalités et amendes pénales"
+  },
+  {
+    "code": "65800000",
+    "libelle": "Charges diverses"
+  },
+  {
+    "code": "65810000",
+    "libelle": "Indemnités de fonction et autres rémunérations d’administrateurs"
+  },
+  {
+    "code": "65820000",
+    "libelle": "Dons"
+  },
+  {
+    "code": "65830000",
+    "libelle": "Mécénat"
+  },
+  {
+    "code": "65880000",
+    "libelle": "Autres charges diverses"
+  },
+  {
+    "code": "65900000",
+    "libelle": "Charges pour dépréciations et provisions pour risques à court terme d’exploitation"
+  },
+  {
+    "code": "65910000",
+    "libelle": "Sur risques à court terme"
+  },
+  {
+    "code": "65930000",
+    "libelle": "Sur stocks"
+  },
+  {
+    "code": "65940000",
+    "libelle": "Sur créances"
+  },
+  {
+    "code": "65980000",
+    "libelle": "Autres charges pour dépréciations et provisions pour risques à court terme"
+  },
+  {
+    "code": "66000000",
+    "libelle": "Charges de personnel"
+  },
+  {
+    "code": "66100000",
+    "libelle": "Rémunérations directes versées au personnel national"
+  },
+  {
+    "code": "66110000",
+    "libelle": "Appointements salaires et commissions"
+  },
+  {
+    "code": "66120000",
+    "libelle": "Primes et gratifications"
+  },
+  {
+    "code": "66130000",
+    "libelle": "Congés payés"
+  },
+  {
+    "code": "66140000",
+    "libelle": "Indemnités de préavis, de licenciement et de recherche d’embauche"
+  },
+  {
+    "code": "66150000",
+    "libelle": "Indemnités de maladie versées aux travailleurs"
+  },
+  {
+    "code": "66160000",
+    "libelle": "Supplément familial"
+  },
+  {
+    "code": "66170000",
+    "libelle": "Avantages en nature"
+  },
+  {
+    "code": "66180000",
+    "libelle": "Autres rémunérations directes"
+  },
+  {
+    "code": "67000000",
+    "libelle": "Frais financiers et charges assimilées"
+  },
+  {
+    "code": "67100000",
+    "libelle": "Intérêts des emprunts"
+  },
+  {
+    "code": "67110000",
+    "libelle": "Emprunts obligataires"
+  },
+  {
+    "code": "67120000",
+    "libelle": "Emprunts auprès des établissements de crédit"
+  },
+  {
+    "code": "67130000",
+    "libelle": "Dettes liées à des participations"
+  },
+  {
+    "code": "67140000",
+    "libelle": "Primes de remboursement des obligations"
+  },
+  {
+    "code": "67200000",
+    "libelle": "Intérêts dans loyers de location acquisition"
+  },
+  {
+    "code": "67220000",
+    "libelle": "Intérêts dans loyers de location acquisition / crédit-bail immobilier"
+  },
+  {
+    "code": "67230000",
+    "libelle": "Intérêts dans loyers de location acquisition / crédit-bail mobilier"
+  },
+  {
+    "code": "67240000",
+    "libelle": "Intérêts dans loyers de location acquisition / location-vente"
+  },
+  {
+    "code": "67280000",
+    "libelle": "Intérêts dans loyers des autres locations acquisition"
+  },
+  {
+    "code": "67300000",
+    "libelle": "Escomptes accordés"
+  },
+  {
+    "code": "67400000",
+    "libelle": "Autres intérêts"
+  },
+  {
+    "code": "67410000",
+    "libelle": "Avances reçues et dépôts créditeurs"
+  },
+  {
+    "code": "67420000",
+    "libelle": "Comptes courants bloqués"
+  },
+  {
+    "code": "67430000",
+    "libelle": "Intérêts sur obligations cautionnées"
+  },
+  {
+    "code": "67440000",
+    "libelle": "Intérêts sur dettes commerciales"
+  },
+  {
+    "code": "67450000",
+    "libelle": "Intérêts bancaires et sur opérations de financement (escompte…)"
+  },
+  {
+    "code": "67480000",
+    "libelle": "Intérêts sur dettes diverses"
+  },
+  {
+    "code": "67500000",
+    "libelle": "Escomptes des effets de commerce"
+  },
+  {
+    "code": "67600000",
+    "libelle": "Pertes de change financières"
+  },
+  {
+    "code": "67700000",
+    "libelle": "Pertes sur titres de placement"
+  },
+  {
+    "code": "67710000",
+    "libelle": "Pertes sur cessions de titres de placement"
+  },
+  {
+    "code": "67720000",
+    "libelle": "Mali provenant d’attribution gratuite d’actions au personnel salarié et aux dirigeants"
+  },
+  {
+    "code": "67800000",
+    "libelle": "Pertes et charges sur risques financiers"
+  },
+  {
+    "code": "67810000",
+    "libelle": "Sur rentes viagères"
+  },
+  {
+    "code": "67820000",
+    "libelle": "Sur opérations financières"
+  },
+  {
+    "code": "67840000",
+    "libelle": "Sur instruments de trésorerie"
+  },
+  {
+    "code": "67900000",
+    "libelle": "Charges pour dépréciations et provisions pour risques à court terme financières"
+  },
+  {
+    "code": "67910000",
+    "libelle": "Sur risques financiers"
+  },
+  {
+    "code": "67950000",
+    "libelle": "Sur titres de placement"
+  },
+  {
+    "code": "67980000",
+    "libelle": "Autres charges pour dépréciations et provisions pour risques à court terme financières"
+  },
+  {
+    "code": "68000000",
+    "libelle": "Dotations aux amortissements"
+  },
+  {
+    "code": "68100000",
+    "libelle": "Dotations aux amortissements d’exploitation"
+  },
+  {
+    "code": "68120000",
+    "libelle": "Dotations aux amortissements des immobilisations incorporelles"
+  },
+  {
+    "code": "68130000",
+    "libelle": "Dotations aux amortissements des immobilisations corporelles"
+  },
+  {
+    "code": "69000000",
+    "libelle": "Dotations aux provisions et aux dépréciations"
+  },
+  {
+    "code": "69100000",
+    "libelle": "Dotations aux provisions et aux dépréciations d’exploitation"
+  },
+  {
+    "code": "69110000",
+    "libelle": "Dotations aux provisions pour risques et charges"
+  },
+  {
+    "code": "69130000",
+    "libelle": "Dotations aux dépréciations des immobilisations incorporelles"
+  },
+  {
+    "code": "69140000",
+    "libelle": "Dotations aux dépréciations des immobilisations corporelles"
+  },
+  {
+    "code": "69700000",
+    "libelle": "Dotations aux provisions et aux dépréciations financières"
+  },
+  {
+    "code": "69710000",
+    "libelle": "Dotations aux provisions pour risques et charges"
+  },
+  {
+    "code": "69720000",
+    "libelle": "Dotations aux dépréciations des immobilisations financières"
+  },
+  {
+    "code": "70000000",
+    "libelle": "Ventes"
+  },
+  {
+    "code": "70100000",
+    "libelle": "Ventes de marchandises"
+  },
+  {
+    "code": "70110000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70120000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70130000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70140000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70150000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70190000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70200000",
+    "libelle": "Ventes de produits finis"
+  },
+  {
+    "code": "70210000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70220000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70230000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70240000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70250000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70290000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70300000",
+    "libelle": "Ventes de produits intermédiaires"
+  },
+  {
+    "code": "70310000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70320000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70330000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70340000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70350000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70390000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70400000",
+    "libelle": "Ventes de produits résiduels"
+  },
+  {
+    "code": "70410000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70420000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70430000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70440000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70450000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70490000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70500000",
+    "libelle": "Travaux facturés"
+  },
+  {
+    "code": "70510000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70520000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70530000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70540000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70550000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70590000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70600000",
+    "libelle": "Services vendus"
+  },
+  {
+    "code": "70610000",
+    "libelle": "Dans la Région"
+  },
+  {
+    "code": "70620000",
+    "libelle": "Hors Région"
+  },
+  {
+    "code": "70630000",
+    "libelle": "Aux entités du groupe dans la Région"
+  },
+  {
+    "code": "70640000",
+    "libelle": "Aux entités du groupe hors Région"
+  },
+  {
+    "code": "70650000",
+    "libelle": "Sur internet"
+  },
+  {
+    "code": "70690000",
+    "libelle": "Rabais, remises, ristournes accordés (non ventilés)"
+  },
+  {
+    "code": "70700000",
+    "libelle": "Produits accessoires"
+  },
+  {
+    "code": "70710000",
+    "libelle": "Ports, emballages perdus et autres frais facturés"
+  },
+  {
+    "code": "70720000",
+    "libelle": "Commissions et courtages"
+  },
+  {
+    "code": "70730000",
+    "libelle": "Locations"
+  },
+  {
+    "code": "70740000",
+    "libelle": "Bonis sur reprises et cessions d’emballages"
+  },
+  {
+    "code": "70750000",
+    "libelle": "Mise à disposition de personnel"
+  },
+  {
+    "code": "70760000",
+    "libelle": "Redevances pour brevets, logiciels, marques et droits similaires"
+  },
+  {
+    "code": "70770000",
+    "libelle": "Services exploités dans l’intérêt du personnel"
+  },
+  {
+    "code": "70780000",
+    "libelle": "Autres produits accessoires"
+  },
+  {
+    "code": "71000000",
+    "libelle": "Subventions d’exploitation"
+  },
+  {
+    "code": "71100000",
+    "libelle": "Sur produits à l’exportation"
+  },
+  {
+    "code": "71200000",
+    "libelle": "Sur produits à l’importation"
+  },
+  {
+    "code": "71300000",
+    "libelle": "Sur produits de péréquation"
+  },
+  {
+    "code": "71400000",
+    "libelle": "Indemnités et subventions d’exploitation (entité agricole)"
+  },
+  {
+    "code": "71800000",
+    "libelle": "Autres subventions d’exploitation"
+  },
+  {
+    "code": "71810000",
+    "libelle": "Versées par l’État et les collectivités publiques"
+  },
+  {
+    "code": "71820000",
+    "libelle": "Versées par les organismes internationaux"
+  },
+  {
+    "code": "71830000",
+    "libelle": "Versées par des tiers"
+  },
+  {
+    "code": "72000000",
+    "libelle": "Production immobilisée"
+  },
+  {
+    "code": "72100000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "72200000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "72210000",
+    "libelle": "Immobilisations corporelles (hors actifs biologiques)"
+  },
+  {
+    "code": "72220000",
+    "libelle": "Immobilisations corporelles (actifs biologiques)"
+  },
+  {
+    "code": "72400000",
+    "libelle": "Production auto-consommée"
+  },
+  {
+    "code": "72600000",
+    "libelle": "Immobilisations financières "
+  },
+  {
+    "code": "73000000",
+    "libelle": "Variations des stocks de biens et de services produits"
+  },
+  {
+    "code": "73400000",
+    "libelle": "Variations des stocks de produits en cours"
+  },
+  {
+    "code": "73410000",
+    "libelle": "Produits en cours"
+  },
+  {
+    "code": "73420000",
+    "libelle": "Travaux en cours"
+  },
+  {
+    "code": "73500000",
+    "libelle": "Variations des en-cours de services"
+  },
+  {
+    "code": "73510000",
+    "libelle": "Études en cours"
+  },
+  {
+    "code": "73520000",
+    "libelle": "Prestations de services en cours"
+  },
+  {
+    "code": "73600000",
+    "libelle": "Variations des stocks de produits finis"
+  },
+  {
+    "code": "73700000",
+    "libelle": "Variations des stocks de produits intermédiaires et résiduels"
+  },
+  {
+    "code": "73710000",
+    "libelle": "Produits intermédiaires"
+  },
+  {
+    "code": "73720000",
+    "libelle": "Produits résiduels"
+  },
+  {
+    "code": "75000000",
+    "libelle": "Autres produits"
+  },
+  {
+    "code": "75100000",
+    "libelle": "Profits sur créances clients et autres débiteurs"
+  },
+  {
+    "code": "75200000",
+    "libelle": "Quote-part de résultat sur opérations faites en commun"
+  },
+  {
+    "code": "75210000",
+    "libelle": "Quote-part transférée de pertes (comptabilité du gérant)"
+  },
+  {
+    "code": "75250000",
+    "libelle": "Bénéfices attribués par transfert (comptabilité des associés non gérants)"
+  },
+  {
+    "code": "75400000",
+    "libelle": "Produits des cessions courantes d’immobilisations"
+  },
+  {
+    "code": "75410000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "75420000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "75600000",
+    "libelle": "Gains de change sur créances et dettes commerciales"
+  },
+  {
+    "code": "75800000",
+    "libelle": "Produits divers"
+  },
+  {
+    "code": "75810000",
+    "libelle": "Indemnités de fonction et autres rémunérations d’administrateurs"
+  },
+  {
+    "code": "75870000",
+    "libelle": "Indemnités d’assurances reçues"
+  },
+  {
+    "code": "75880000",
+    "libelle": "Autres produits divers"
+  },
+  {
+    "code": "75900000",
+    "libelle": "Reprises de charges pour dépréciations et provisions pour risques à court terme d’exploitation"
+  },
+  {
+    "code": "75910000",
+    "libelle": "Sur risques à court terme"
+  },
+  {
+    "code": "75930000",
+    "libelle": "Sur stocks"
+  },
+  {
+    "code": "75940000",
+    "libelle": "Sur créances"
+  },
+  {
+    "code": "75980000",
+    "libelle": "Sur autres charges pour dépréciations et provisions pour risques à court terme d’exploitation"
+  },
+  {
+    "code": "77000000",
+    "libelle": "Revenus financiers et produits assimilés"
+  },
+  {
+    "code": "77100000",
+    "libelle": "Intérêts de prêts et créances diverses"
+  },
+  {
+    "code": "77120000",
+    "libelle": "Intérêts de prêts"
+  },
+  {
+    "code": "77130000",
+    "libelle": "Intérêts sur créances diverses"
+  },
+  {
+    "code": "77200000",
+    "libelle": "Revenus de participations et autres titres immobilisés"
+  },
+  {
+    "code": "77210000",
+    "libelle": "Revenus des titres de participation"
+  },
+  {
+    "code": "77220000",
+    "libelle": "Revenus autres titres immobilisés"
+  },
+  {
+    "code": "77300000",
+    "libelle": "Escomptes obtenus"
+  },
+  {
+    "code": "77400000",
+    "libelle": "Revenus de placement"
+  },
+  {
+    "code": "77450000",
+    "libelle": "Revenus des obligations"
+  },
+  {
+    "code": "77460000",
+    "libelle": "Revenus des titres de placement"
+  },
+  {
+    "code": "77500000",
+    "libelle": "Intérêts dans loyers de location acquisition"
+  },
+  {
+    "code": "77600000",
+    "libelle": "Gains de change financiers"
+  },
+  {
+    "code": "77700000",
+    "libelle": "Gains sur cessions de titres de placement"
+  },
+  {
+    "code": "77800000",
+    "libelle": "Gains sur risques financiers"
+  },
+  {
+    "code": "77810000",
+    "libelle": "Sur rentes viagères"
+  },
+  {
+    "code": "77820000",
+    "libelle": "Sur opérations financières"
+  },
+  {
+    "code": "77840000",
+    "libelle": "Sur instruments de trésorerie"
+  },
+  {
+    "code": "77900000",
+    "libelle": "Reprises de charges pour dépréciations et provisions à court terme financières"
+  },
+  {
+    "code": "77910000",
+    "libelle": "Sur risques financiers"
+  },
+  {
+    "code": "77950000",
+    "libelle": "Sur titres de placement"
+  },
+  {
+    "code": "77980000",
+    "libelle": "Sur autres charges pour dépréciations et provisions pour risques à court terme financières"
+  },
+  {
+    "code": "78000000",
+    "libelle": "Transferts de charges"
+  },
+  {
+    "code": "78100000",
+    "libelle": "Transferts de charges d’exploitation"
+  },
+  {
+    "code": "78700000",
+    "libelle": "Transferts de charges financières"
+  },
+  {
+    "code": "79000000",
+    "libelle": "Reprises de provisions, de dépréciations et autres"
+  },
+  {
+    "code": "79100000",
+    "libelle": "Reprises de provisions et dépréciations d’exploitation"
+  },
+  {
+    "code": "79110000",
+    "libelle": "Pour risques et charges"
+  },
+  {
+    "code": "79130000",
+    "libelle": "Des immobilisations incorporelles"
+  },
+  {
+    "code": "79140000",
+    "libelle": "Des immobilisations corporelles"
+  },
+  {
+    "code": "79700000",
+    "libelle": "Reprises de provisions et dépréciations financières"
+  },
+  {
+    "code": "79710000",
+    "libelle": "Pour risques et charges"
+  },
+  {
+    "code": "79720000",
+    "libelle": "Des immobilisations financières"
+  },
+  {
+    "code": "79800000",
+    "libelle": "Reprises d’amortissements"
+  },
+  {
+    "code": "79900000",
+    "libelle": "Reprises de subventions d’investissement"
+  },
+  {
+    "code": "80000000",
+    "libelle": "- Comptes des autres charges et des autres produits"
+  },
+  {
+    "code": "81000000",
+    "libelle": "Valeurs comptables des cessions d’immobilisations"
+  },
+  {
+    "code": "81100000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "81200000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "81600000",
+    "libelle": "Immobilisations financières"
+  },
+  {
+    "code": "82000000",
+    "libelle": "Produits des cessions d’immobilisations"
+  },
+  {
+    "code": "82100000",
+    "libelle": "Immobilisations incorporelles"
+  },
+  {
+    "code": "82200000",
+    "libelle": "Immobilisations corporelles"
+  },
+  {
+    "code": "82600000",
+    "libelle": "Immobilisations financières"
+  },
+  {
+    "code": "83000000",
+    "libelle": "Charges hors activités ordinaires"
+  },
+  {
+    "code": "83100000",
+    "libelle": "Charges HAO constatées"
+  },
+  {
+    "code": "83300000",
+    "libelle": "Charges liées aux opérations de restructuration"
+  },
+  {
+    "code": "83400000",
+    "libelle": "Pertes sur créances HAO"
+  },
+  {
+    "code": "83500000",
+    "libelle": "Dons et libéralités accordés"
+  },
+  {
+    "code": "83600000",
+    "libelle": "Abandons de créances consentis"
+  },
+  {
+    "code": "83700000",
+    "libelle": "Charges liées aux opérations de liquidation"
+  },
+  {
+    "code": "83900000",
+    "libelle": "Charges pour dépréciations et provisions pour risques à court terme HAO"
+  },
+  {
+    "code": "84000000",
+    "libelle": "Produits hors activités ordinaires"
+  },
+  {
+    "code": "84100000",
+    "libelle": "Produits HAO constatés"
+  },
+  {
+    "code": "84300000",
+    "libelle": "Produits liés aux opérations de restructuration"
+  },
+  {
+    "code": "84400000",
+    "libelle": "Indemnités et subventions HAO (entité agricole)"
+  },
+  {
+    "code": "84500000",
+    "libelle": "Dons et libéralités obtenus"
+  },
+  {
+    "code": "84600000",
+    "libelle": "Abandons de créances obtenus"
+  },
+  {
+    "code": "84700000",
+    "libelle": "Produits liés aux opérations de liquidation"
+  },
+  {
+    "code": "84800000",
+    "libelle": "Transferts de charges HAO"
+  },
+  {
+    "code": "84900000",
+    "libelle": "Reprises de charges pour dépréciations et provisions pour risques à court terme HAO"
+  },
+  {
+    "code": "85000000",
+    "libelle": "Dotations hors activités ordinaires"
+  },
+  {
+    "code": "85100000",
+    "libelle": "Dotations aux provisions réglementées"
+  },
+  {
+    "code": "85200000",
+    "libelle": "Dotations aux amortissements HAO"
+  },
+  {
+    "code": "85300000",
+    "libelle": "Dotations aux dépréciations HAO"
+  },
+  {
+    "code": "85400000",
+    "libelle": "Dotations aux provisions pour risques et charges HAO"
+  },
+  {
+    "code": "85800000",
+    "libelle": "Autres dotations HAO"
+  },
+  {
+    "code": "86000000",
+    "libelle": "Reprises de charges, provisions et dépréciations HAO"
+  },
+  {
+    "code": "86100000",
+    "libelle": "Reprises de provisions réglementées"
+  },
+  {
+    "code": "86200000",
+    "libelle": "Reprises d’amortissements HAO"
+  },
+  {
+    "code": "86300000",
+    "libelle": "Reprises de dépréciations HAO"
+  },
+  {
+    "code": "86400000",
+    "libelle": "Reprises de provisions pour risques et charges HAO"
+  },
+  {
+    "code": "86800000",
+    "libelle": "Autres reprises HAO"
+  },
+  {
+    "code": "87000000",
+    "libelle": "Participation des travailleurs"
+  },
+  {
+    "code": "87100000",
+    "libelle": "Participation légale aux bénéfices"
+  },
+  {
+    "code": "87400000",
+    "libelle": "Participation contractuelle aux bénéfices"
+  },
+  {
+    "code": "87800000",
+    "libelle": "Autres participations"
+  },
+  {
+    "code": "88000000",
+    "libelle": "Subventions d’équilibre"
+  },
+  {
+    "code": "88100000",
+    "libelle": "État"
+  },
+  {
+    "code": "88400000",
+    "libelle": "Collectivités publiques"
+  },
+  {
+    "code": "88600000",
+    "libelle": "Groupe"
+  },
+  {
+    "code": "88800000",
+    "libelle": "Autres"
+  },
+  {
+    "code": "89000000",
+    "libelle": "Impôts sur le résultat"
+  },
+  {
+    "code": "89100000",
+    "libelle": "Impôts sur les bénéfices de l’exercice"
+  },
+  {
+    "code": "89110000",
+    "libelle": "Activités exercées dans l’État"
+  },
+  {
+    "code": "89120000",
+    "libelle": "Activités exercées dans les autres États de la Région"
+  },
+  {
+    "code": "89130000",
+    "libelle": "Activités exercées hors Région"
+  },
+  {
+    "code": "89200000",
+    "libelle": "Rappel d’impôts sur résultats antérieurs"
+  },
+  {
+    "code": "89500000",
+    "libelle": "Impôt minimum forfaitaire IMF"
+  },
+  {
+    "code": "89900000",
+    "libelle": "Dégrevements et annulations d’impôts sur résultats antérieurs"
+  },
+  {
+    "code": "89910000",
+    "libelle": "Dégrevements"
+  },
+  {
+    "code": "89940000",
+    "libelle": "Annulations pour pertes rétroactives"
+  },
+  {
+    "code": "90000000",
+    "libelle": "Engagements obtenus et engagements accordés"
+  },
+  {
+    "code": "90100000",
+    "libelle": "Engagements de financement obtenus"
+  },
+  {
+    "code": "90110000",
+    "libelle": "Crédits confirmés obtenus"
+  },
+  {
+    "code": "90120000",
+    "libelle": "Emprunts restant à encaisser"
+  },
+  {
+    "code": "90130000",
+    "libelle": "Facilités de financement renouvelables"
+  },
+  {
+    "code": "90140000",
+    "libelle": "Facilités d’émission"
+  },
+  {
+    "code": "90180000",
+    "libelle": "Autres engagements de financement obtenus"
+  },
+  {
+    "code": "90200000",
+    "libelle": "Engagements de garantie obtenus"
+  },
+  {
+    "code": "90210000",
+    "libelle": "Avals obtenus"
+  },
+  {
+    "code": "90220000",
+    "libelle": "Cautions, garanties obtenues"
+  },
+  {
+    "code": "90230000",
+    "libelle": "Hypothèques obtenues"
+  },
+  {
+    "code": "90240000",
+    "libelle": "Effets endossés par des tiers"
+  },
+  {
+    "code": "90280000",
+    "libelle": "Autres garanties obtenues"
+  },
+  {
+    "code": "90300000",
+    "libelle": "Engagements réciproques"
+  },
+  {
+    "code": "90310000",
+    "libelle": "Achats de marchandises à terme"
+  },
+  {
+    "code": "90320000",
+    "libelle": "Achats à terme de devises"
+  },
+  {
+    "code": "90330000",
+    "libelle": "Commandes fermes des clients"
+  },
+  {
+    "code": "90380000",
+    "libelle": "Autres engagements réciproques"
+  },
+  {
+    "code": "90400000",
+    "libelle": "Autres engagements obtenus"
+  },
+  {
+    "code": "90410000",
+    "libelle": "Abandons de créances conditionnels"
+  },
+  {
+    "code": "90430000",
+    "libelle": "Ventes avec clause de réserve de propriété"
+  },
+  {
+    "code": "90480000",
+    "libelle": "Divers engagements obtenus"
+  },
+  {
+    "code": "90500000",
+    "libelle": "Engagements de financement accordés"
+  },
+  {
+    "code": "90510000",
+    "libelle": "Crédits accordés non décaissés"
+  },
+  {
+    "code": "90580000",
+    "libelle": "Autres engagements de financement accordés"
+  },
+  {
+    "code": "90600000",
+    "libelle": "Engagements de garantie accordés"
+  },
+  {
+    "code": "90610000",
+    "libelle": "Avals accordés"
+  },
+  {
+    "code": "90620000",
+    "libelle": "Cautions, garanties accordées"
+  },
+  {
+    "code": "90630000",
+    "libelle": "Hypothèques accordées"
+  },
+  {
+    "code": "90640000",
+    "libelle": "Effets endossés par l’entité"
+  },
+  {
+    "code": "90680000",
+    "libelle": "Autres garanties accordées"
+  },
+  {
+    "code": "90700000",
+    "libelle": "Engagements réciproques"
+  },
+  {
+    "code": "90710000",
+    "libelle": "Ventes de marchandises à terme"
+  },
+  {
+    "code": "90720000",
+    "libelle": "Ventes à terme de devises"
+  },
+  {
+    "code": "90730000",
+    "libelle": "Commandes fermes aux fournisseurs"
+  },
+  {
+    "code": "90780000",
+    "libelle": "Autres engagements réciproques"
+  },
+  {
+    "code": "90800000",
+    "libelle": "Autres engagements accordés"
+  },
+  {
+    "code": "90810000",
+    "libelle": "Annulations conditionnelles de dettes"
+  },
+  {
+    "code": "90820000",
+    "libelle": "Engagements de retraite"
+  },
+  {
+    "code": "90830000",
+    "libelle": "Achats avec clause de réserve de propriété"
+  },
+  {
+    "code": "90880000",
+    "libelle": "Divers engagements accordés"
+  },
+  {
+    "code": "91000000",
+    "libelle": "Contreparties des engagements"
+  },
+  {
+    "code": "91100000",
+    "libelle": "à 914"
+  },
+  {
+    "code": "91500000",
+    "libelle": "à 918"
+  },
+  {
+    "code": "92000000",
+    "libelle": "Comptes réfléchis"
+  },
+  {
+    "code": "93000000",
+    "libelle": "Comptes de reclassements"
+  },
+  {
+    "code": "94000000",
+    "libelle": "Comptes de coûts"
+  },
+  {
+    "code": "95000000",
+    "libelle": "Comptes de stocks"
+  },
+  {
+    "code": "96000000",
+    "libelle": "Comptes d’écarts sur coûts préétablis"
+  },
+  {
+    "code": "97000000",
+    "libelle": "Comptes de différences de traitement comptable"
+  },
+  {
+    "code": "98000000",
+    "libelle": "Comptes de résultats"
+  },
+  {
+    "code": "99000000",
+    "libelle": "Comptes de liaisons internes"
+  }
+]

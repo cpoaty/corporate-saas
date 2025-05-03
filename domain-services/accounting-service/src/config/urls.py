@@ -22,6 +22,9 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
 
+# Importez votre vue d'accueil
+from apps.core.views.home_views import home_view
+
 # Configurer Swagger/OpenAPI
 schema_view = get_schema_view(
    openapi.Info(
@@ -47,4 +50,7 @@ urlpatterns = [
     path('docs/', include_docs_urls(title='Accounting Service API')),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+
+    # Remplacez l'inclusion par une référence directe à la vue d'accueil
+    path('', home_view, name='home'),
 ]

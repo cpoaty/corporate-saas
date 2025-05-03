@@ -4,6 +4,7 @@ import uuid
 import json
 import os
 from django.conf import settings
+from ..utils import format_accounting_name, format_accounting_code
 
 class AccountType(models.TextChoices):
     ASSET = 'ASSET', 'Actif'
@@ -86,6 +87,13 @@ class Account(models.Model):
     
     def __str__(self):
         return f"{self.code} - {self.name}"
+    
+    def save(self, *args, **kwargs):
+        if self.name:
+            self.name = format_accounting_name(self.name)
+        if self.code:
+            self.code = format_accounting_code(self.code)
+        super().save(*args, **kwargs)
     
     def get_balance(self, start_date=None, end_date=None):
         """Calcule le solde du compte pour une période donnée"""
