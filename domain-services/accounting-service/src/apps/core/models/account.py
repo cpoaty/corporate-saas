@@ -72,6 +72,14 @@ class Account(models.Model):
     level = models.PositiveSmallIntegerField(default=0, help_text="Niveau hiérarchique du compte")
     type = models.CharField(max_length=20, choices=AccountType.choices)
     
+    # Champs pour la classification détaillée OHADA
+    ref_financial_statement = models.CharField(max_length=10, null=True, blank=True, 
+                                               help_text="Référence pour les états financiers (ex: AE, BJ, TA)")
+    is_amortization_depreciation = models.BooleanField(default=False, 
+                                                       help_text="Indique si le compte est un compte d'amortissement ou de dépréciation")
+    normal_balance = models.CharField(max_length=10, null=True, blank=True, 
+                                      help_text="Solde normal du compte (DEBIT ou CREDIT)")
+    
     is_active = models.BooleanField(default=True)
     is_reconcilable = models.BooleanField(default=True, help_text="Indique si le compte peut être rapproché")
     is_tax_relevant = models.BooleanField(default=False, help_text="Indique si le compte est pertinent pour la TVA")
